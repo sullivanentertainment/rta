@@ -130,6 +130,10 @@ function sullivan_entertainment_scripts() {
 
 	wp_enqueue_script( 'sullivan-entertainment-main-js', get_template_directory_uri() . '/js/main.js', array(), '20130115', true );
 
+	wp_enqueue_script( 'sullivan-entertainment-bootstrap', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array(), '20130115', true );
+
+	
+
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -219,3 +223,24 @@ function Collectibles() {
 
 }
 add_action( 'init', 'Collectibles', 0 );
+
+function wpb_list_child_pages() { 
+ 
+	global $post; 
+	 
+	if ( is_page() && $post->post_parent )
+	 
+		$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->post_parent . '&echo=0' );
+	else
+		$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->ID . '&echo=0' );
+	 
+	if ( $childpages ) {
+	 
+		$string = '<ul>' . $childpages . '</ul>';
+	}
+	 
+	return $string;
+	 
+	}
+	 
+	add_shortcode('wpb_childpages', 'wpb_list_child_pages');

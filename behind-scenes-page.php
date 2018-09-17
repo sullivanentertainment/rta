@@ -102,10 +102,6 @@ wp_reset_postdata();
                                    </div>
                                </li>
                            </ul>
-                            <!--<p class="recent-head">Anne Inspired <span>Collectibles</span></p>-->
-                                   <!--<div class="film-wrapper">
-                                        <a href="https://shopatsullivan.com/index.php/accessories.html">Shop Now</a>
-                                    </div>-->
                                                                <p class="quote container">"The period costumes of the Anne films are recognized for their authenticity and intricacy. Martha Mann, the costume designer for the first two films, set an ambitious precedent for the series." </p>
                        </div>
                        <div class="container">

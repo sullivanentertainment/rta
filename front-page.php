@@ -22,8 +22,8 @@ get_header();
 echo get_template_directory_uri();
 ?>/static-images/anne-logo-white.png" alt="anne-logo">
                 <div class="splash-btn-wrap">
-                    <a href="#">WATCH ONLINE</a>
-                    <a href="#">BUY DVDS & BLU-RAY</a>
+                    <a href="https://gazebotv.com/product-detail/24394">WATCH ONLINE</a>
+                    <a href="https://shopatsullivan.com/dvds/anne-of-green-gables.html">BUY DVDS & BLU-RAY</a>
                 </div>
 			</div>
 </div>
@@ -32,6 +32,8 @@ echo get_template_directory_uri();
             <?php
 echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables.com/wp-content/uploads/2018/04/anne-1-trailer-h264-1.mp4" webm="https://anneofgreengables.com/wp-content/uploads/2018/04/new-anne-trailer.webm" poster=”#” muted="true" loop="true"]');
 ?>
+
+<h1>THE ANNE OF GREEN GABLES FILMS ENCOMPASS 200 HOURS OF SULLIVAN <br/><a href="#">PERIOD DRAMA</a></h1>
        <h3 class="section-header">The Films</h3>
 <div class="row">
 <div class="col-md-3">
@@ -85,8 +87,8 @@ echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables
 </div>
 </div>
 <h3 class="product-heading product-heading3">The Characters</h3>
+<?php echo do_shortcode('[carousel_slide id="29487"]'); ?>
 
-[col size="12"]
 <h3 class="product-heading product-heading1">OFFICIAL ANNE COLLECTIBLES</h3>
 <ul class="main-carousel">
 <?php
