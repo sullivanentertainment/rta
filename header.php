@@ -30,20 +30,20 @@
 <div id="page" class="site">
 	<header id="masthead" class="site-header row">
 		<div class="container header-wrap">
-		<div class="fade-logos-wrap">
-			<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-white.png"/>
-			<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-dark.png"/>
+		<div class="fade-logos-wrap col-md-2">
+			<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-white.png" id="logo-light"/>
+			<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-dark.png" id="logo-dark"/>
 		</div>
-		<nav class="row offset-md-3">
+		<nav class="row offset-md-1 col-md-9">
 		<div class="dropdown ">
 			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				FILMS
 			</button>
 			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				<a class="dropdown-item" href="#">Anne of Green Gables</a>
-				<a class="dropdown-item" href="#">Anne of Avonlea</a>
-				<a class="dropdown-item" href="#">The Continuing Story</a>
-				<a class="dropdown-item" href="#">A New Beginning</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneofgreengables">Anne of Green Gables</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneofavonlea">Anne of Avonlea</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#annethecontinuingstory">The Continuing Story</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneanewbeginnging">A New Beginning</a>
 			</div>
 		</div>
 		<div class="dropdown ">

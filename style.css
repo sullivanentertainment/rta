@@ -45,8 +45,64 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.site-header {
+  height: 72px; }
+
+nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+nav div {
+  margin: 0 20px; }
+
+.home.scrolled #logo-dark {
+  opacity: 1; }
+
+.fade-logos-wrap {
+  height: 40px; }
+
+.fade-logos-wrap {
+  position: relative; }
+
+.fade-logos-wrap img {
+  position: absolute; }
+
+.header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.site-header button {
+  font-family: Arial, Helvetica, sans-serif; }
+
+body .site-header a {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif; }
+
 .site-header a.dropdown-item {
   color: #000; }
+
+.scrolled .site-header {
+  background: #fff;
+  position: fixed; }
+
+.scrolled.home .navigation #menu-main-menu a, .scrolled.home .navigation #menu-main-menu .sub-menu a, .scrolled .site-header button, .scrolled .site-header a {
+  color: #000; }
+
+.scrolled .site-logo-img--dark {
+  display: block; }
+
+.scrolled .site-logo-img--light {
+  display: none; }
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+  color: #000;
+  background-color: transparent;
+  border: none; }
 
 .post-575-title {
   height: 670px;
@@ -855,18 +911,6 @@ body #pum-30016 {
   -webkit-animation: move-down 0.5s linear 2s infinite alternate;
           animation: move-down 0.5s linear 2s infinite alternate; }
 
-.scrolled .site-header {
-  background: #fff; }
-
-.scrolled.home .navigation #menu-main-menu a, .scrolled.home .navigation #menu-main-menu .sub-menu a {
-  color: #000; }
-
-.scrolled .site-logo-img--dark {
-  display: block; }
-
-.scrolled .site-logo-img--light {
-  display: none; }
-
 .home .navigation #menu-main-menu a:hover {
   color: #41ad49; }
 
@@ -1432,28 +1476,10 @@ button.mfp-arrow-left, button.mfp-arrow-right {
 .headline__primary {
   display: none; }
 
-.fade-logos-wrap {
-  position: relative; }
-
-.fade-logos-wrap img {
-  position: absolute; }
-
-.header-wrap div {
-  margin: 0 20px; }
-
 .dropdown-toggle, .dropdown-toggle:hover {
   background: transparent;
   border: none;
   padding: 0; }
-
-.site-header {
-  height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
 
 /* Bootstrap Col-sm-5 */
 .col-xs-5ths,
@@ -1691,11 +1717,32 @@ header {
 .fade-logos-wrap img {
   max-height: 40px; }
 
-.site-header a {
-  color: #fff; }
+.page-template-characters-page #main-heading {
+  line-height: 38px;
+  font-size: 29px;
+  margin: 50px 0; }
 
-.site-header a.dropdown-item {
-  color: #000; }
+.page-template-characters-page h3 {
+  font-family: 'trajan-regular-pro';
+  font-size: 24px;
+  margin-bottom: 35px; }
+
+.page-template-characters-page p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #515150;
+  line-height: 27.2px; }
+
+.page-template-characters-page .character-single {
+  margin: 60px 0; }
+
+.page-template-characters-page section .character-quote:first-child {
+  margin: 55px 0; }
+
+.page-template-characters-page .character-quote {
+  font-family: 'trajan-regular-pro';
+  font-size: 18pt;
+  display: inline-block; }
 
 .page-template-films-page h3 {
   font-size: 35px;
@@ -1714,6 +1761,17 @@ header {
 .page-template-films-page .film-wrapper {
   margin: 55px 0; }
 
+.page-template-films-page .book-screen {
+  margin: 65px 0; }
+
+.home #logo-dark {
+  opacity: 0;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear; }
+
+.home .scrolled #logo-dark {
+  opacity: 1; }
+
 .home h1 {
   font-size: 25px;
   text-align: center;
@@ -1725,3 +1783,24 @@ header {
 
 .home h3 {
   margin: 50px 0; }
+
+.home .gazebo-text {
+  font-size: 20px;
+  color: #515150;
+  line-height: 34px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.home .collectible-cell {
+  color: #474747;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
+.home .flickity-viewport {
+  height: 385px; }
+
+.home .collectible-cell img {
+  width: 100%;
+  padding: 30px;
+  height: 100%; }

@@ -1,3 +1,70 @@
+.site-header{
+    height:72px;
+}
+
+nav{
+    align-items:center;
+}
+
+nav div{
+    margin:0 20px;
+}
+
+.home.scrolled #logo-dark{
+    opacity:1;
+}
+
+.fade-logos-wrap{
+    height:40px;
+}
+
+.fade-logos-wrap{
+    position:relative;
+}
+
+.fade-logos-wrap img{
+    position:absolute;
+}
+
+.header-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.site-header button{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body .site-header a{
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .site-header a.dropdown-item{
     color:#000;
+}
+
+
+.scrolled .site-header{
+    background:#fff;
+    position:fixed;
+}
+
+.scrolled.home .navigation #menu-main-menu a, .scrolled.home .navigation #menu-main-menu .sub-menu a, .scrolled .site-header button, .scrolled .site-header a{
+    color:#000;
+}
+
+
+.scrolled .site-logo-img--dark{
+    display:block;
+}
+
+.scrolled .site-logo-img--light{
+    display:none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle{
+    color: #000;
+    background-color: transparent;
+    border:none;
 }

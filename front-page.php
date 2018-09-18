@@ -102,9 +102,9 @@ $args = array(
     if ($new_query->have_posts()) {
         while($new_query->have_posts()){
             $new_query->the_post();
-            echo '<li class="carousel-cell col-md-3">';
-            the_title();
-            the_post_thumbnail('thumbnail');
+            echo '<li class="carousel-cell collectible-cell col-md-3 test">';
+            echo the_post_thumbnail('thumbnail') . '<br/>';
+            echo '<p class="collectible-title">' . the_title() . '</p>';
             echo '</li>';
         }
     }
@@ -112,7 +112,7 @@ $args = array(
 ?>
 </ul>
 
-<ul class="product-list">
+<!-- <ul class="product-list">
      <li><a href="https://shopatsullivan.com/index.php/catalog/product/view/id/298/s/anne-of-green-gables-hat-with-braids/"><img class="aligncenter wp-image-29139 size-full" src="https://anneofgreengables.com/wp-content/uploads/2018/03/Anne-Hat_NEW.jpg" alt="" width="300" height="189" />
 </a>
 <p class="product-title">Anne Hat
@@ -141,7 +141,7 @@ DVD Box Set</p>
 <p class="product-price">$79.99</p>
 &nbsp;
 <div class="film-wrapper"><a class="home-shop" href="#">Buy Now</a></div></li>
-</ul>
+</ul> -->
 
 <p style="text-align: center;">  <a href="http://shopatsullivan.com"><img class="wp-image-1120 size-medium aligncenter" src="https://anneofgreengables.com/wp-content/uploads/2018/03/shopatsullivan_logo_2018_500px-300x123.png" alt="" width="300" height="123" /></a></p>
 

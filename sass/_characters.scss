@@ -1,7 +1,35 @@
 .page-template-characters-page{
+
+    #main-heading{
+        line-height: 38px;
+        font-size: 29px;
+        margin: 50px 0;
+    }
     h3{
         font-family:'trajan-regular-pro';
         font-size:24px;
+        margin-bottom:35px;
+    }
+
+    p{
+        font-size:16px;
+        font-family:Arial, Helvetica, sans-serif;
+        color:rgb(81, 81, 80);
+        line-height:27.2px;
+    }
+
+    .character-single{
+        margin: 60px 0;
+    }
+
+    section .character-quote:first-child{
+        margin:55px 0;
+    }
+
+    .character-quote{
+        font-family: 'trajan-regular-pro';
+        font-size: 18pt;
+        display:inline-block;
     }
 
 }
