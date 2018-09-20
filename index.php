@@ -17,43 +17,38 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
+		<section id="blog-wrap" class="container row">
 		<?php
-		if ( have_posts() ) :
+				$currentPage = get_query_var('paged'); 
+				$args = array(
+					'post_type' => 'post',
+					'posts_per_page'   => 10,
+					'paged' => $currentPage
+				);
+			
 
-			if ( is_home() && ! is_front_page() ) :
+				$post_query = new WP_Query($args);
+			if($post_query->have_posts() ) {
+				while($post_query->have_posts() ) {
+				$post_query->the_post();
 				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
+				<div class="blog-item col-sm-4">
+					<?php the_post_thumbnail(); ?>
+					<h2><?php the_title(); ?></h2>
+					<p><?php the_excerpt(); ?></p>
+					
+				</div>
 				<?php
-			endif;
-
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
+			}
+			}
 		?>
+		</section>
+
+		<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?>test1</div>
+		<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?>test2</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

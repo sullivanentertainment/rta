@@ -30,10 +30,12 @@
 <div id="page" class="site">
 	<header id="masthead" class="site-header row">
 		<div class="container header-wrap">
-		<div class="fade-logos-wrap col-md-2">
-			<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-white.png" id="logo-light"/>
-			<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-dark.png" id="logo-dark"/>
-		</div>
+			<div class="fade-logos-wrap col-md-2">
+				<a href="/">
+					<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-white.png" id="logo-light"/>
+					<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-dark.png" id="logo-dark"/>
+				</a>
+			</div>
 		<nav class="row offset-md-1 col-md-9">
 		<div class="dropdown ">
 			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,18 +53,27 @@
 				CHARACTERS
 			</button>
 			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				<a class="dropdown-item" href="#"></a>
-				<a class="dropdown-item" href="#"></a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#anne-shirley">Anne Shirley</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#gilbert-blythe">Gilbert Blythe</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#marilla-cuthbert">Marilla Cuthbert</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#matthew-cuthbert">Matthew Cuthbert</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#diana-barry-wright">Diana Barry Wright</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#rachel-lynde">Rachel Lynde</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#morgan-harris">Morgan Harris</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#mrs-harris">Mrs.Harris</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#young-anne-shirley">Young Anne Shirley</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#amelia-thomas">Amelia Thomas</a>
+				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#older-anne-shirley">Older Anne Shirley</a>
 			</div>
 		</div>
 		<div>
-			<a href="#" class="">BEHIND THE SCENES</a>
+			<a href="<?php echo get_template_directory_uri(); ?>/behind-the-scenes" class="">BEHIND THE SCENES</a>
 		</div>
 		<div>
 			<a href="#" class="">WATCH NOW</a>
 		</div>
 		<div>
-			<a href="#" class="">BLOG</a>
+			<a href="<?php echo get_template_directory_uri(); ?>/blog" class="">BLOG</a>
 		</div>
 		<div>
 			<a href="#" class="">SHOP</a>

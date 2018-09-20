@@ -43,7 +43,6 @@ echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables
 <p class="anne-head1">1985</p>
 <p class="anne-head">Runtime</p>
 <p>195 Minutes</p>
-
 </div>
 </div>
 

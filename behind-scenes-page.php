@@ -10,7 +10,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-		    <img style="width:100vw" src="<?php echo get_template_directory_uri(); ?>/assets/images/behind-banner.jpg"/>
+		    <img style="width:100vw" src="<?php echo get_template_directory_uri(); ?>/static-images/behind-banner.jpg"/>
                 <ul id="main-list" class="filtr-container container portfolio-wrapper">
        <h4 class="section-header" style="margin-bottom: 0;
     margin-top: 4%;">Behind The Scenes</h4>
@@ -50,7 +50,7 @@ wp_reset_postdata();
                            <h4 class="section-header container costume-head">The Costumes</h4>
                            <ul class="container costume-list">
                                <li>
-                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/assets/images/Costume06.jpg"/>
+                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/static-images/Costume06.jpg"/>
                                    <div class="info">
                                        <p class="info-header">Anne of Green Gables (1985)</p><p style="text-align:center;font-style:italic">Colleen Dewhurst Plays Marilla Cuthbert</p>
                     
@@ -59,7 +59,7 @@ wp_reset_postdata();
                                    </div>
                                </li>
                                <li>
-                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/assets/images/Costume01.jpg"/>
+                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/static-images/Costume01.jpg"/>
                                    <div class="info">
                                        <p class="info-header">Anne of Green Gables: <br/>The Sequel (1987) </p><p style="text-align:center;font-style:italic">Megan Follow Plays Anne Shirley</p>
                     
@@ -68,7 +68,7 @@ wp_reset_postdata();
                                    </div>
                                </li>
                                 <li>
-                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/assets/images/Costume02.jpg"/>
+                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/static-images/Costume02.jpg"/>
                                    <div class="info">
                                        <p class="info-header">Anne of Green Gables: <br/>A New Beginning (2009) </p style="text-align:center"><p style="text-align:center;font-style:italic">Joan Gregson Plays Hepzibah Leach</p>
                     
@@ -76,7 +76,7 @@ wp_reset_postdata();
                                    </div>
                                </li>
                                 <li>
-                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/assets/images/Costume03.jpg"/>
+                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/static-images/Costume03.jpg"/>
                                    <div class="info">
                                        <p class="info-header">Anne of Green Gables: <br/>The Sequel (1987) </p><p style="text-align:center;font-style:italic">Schuyler Grant Plays Diana Barry</p>
                     
@@ -84,7 +84,7 @@ wp_reset_postdata();
                                    </div>
                                </li>
                                 <li>
-                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/assets/images/Costume04.jpg"/>
+                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/static-images/Costume04.jpg"/>
                                    <div class="info">
                                        <p class="info-header">Anne of Green Gables: <br/>The Sequel (1987) </p>
                     
@@ -93,7 +93,7 @@ wp_reset_postdata();
                                    </div>
                                </li>
                                 <li>
-                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/assets/images/Costume05.jpg"/>
+                                   <img class="costume-img" src="<?php echo get_template_directory_uri();?>/static-images/Costume05.jpg"/>
                                    <div class="info">
                                        <p class="info-header">Anne of Green Gables (1985)</p><p style="text-align:center;font-style:italic;">Charmion King plays Aunt Josephine </p>
                     
@@ -113,13 +113,13 @@ wp_reset_postdata();
                            <p>
                             All of Anne Shirley and Marilla Cuthbert‘s costumes were original pieces, constructed specifically for the first film. Mann was faithful to Edwardian styles, right down to the petticoats, furbelows, corsets and more. Ruth Secord took the reigns as costume designer for <a href="https://gazebotv.com/product-detail/23428" target="_blank"><em>Anne: The Continuing Story</em></a>, but stayed true to Mann’s initial vision. Secord used both items that were made specifically for the film, and authentic vintage pieces. Gilbert Blythe‘s costume, for instance, was a genuine medical uniform from the First World War.</p></div>
 
-                                <img src="<?php echo get_template_directory_uri();?>/assets/images/Why-These-Costumes-Matter.jpg">
+                                <img src="<?php echo get_template_directory_uri();?>/static-images/Why-These-Costumes-Matter.jpg">
                        </div>
                        </div>
                        <div class="costume-text-2">
                           
                            <div class="before-after-wrapper before2">
-                              <img src="<?php echo get_template_directory_uri();?>/assets/images/Martha-Mann.jpg">
+                              <img src="<?php echo get_template_directory_uri();?>/static-images/Martha-Mann.jpg">
                              <div style="flex-basis:47%">
                              <h3 class="section-header"  style="margin-top:0;">Who is Martha Mann?</h3>
                            <p>
@@ -132,7 +132,7 @@ Thanks to the efforts of Mann and Secord, the lush, visually stimulating costumi
                            <h4 class="section-header set-header">Set Design</h4>
                            </div>
 
-                          <img class="set-design-bg" style="width:100vw" src="<?php echo get_template_directory_uri(); ?>/assets/images/set-design-bg.jpg"/>
+                          <img class="set-design-bg" style="width:100vw" src="<?php echo get_template_directory_uri(); ?>/static-images/set-design-bg.jpg"/>
                            <div class="container">
                                
                             <div class="before-after-wrapper wrap1">

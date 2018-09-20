@@ -45,6 +45,65 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.home .splash-btn-wrap {
+  margin-top: 70px; }
+
+.home .wp-image-29564 {
+  margin-left: 36px;
+  max-width: 1115px;
+  max-height: 301px; }
+
+.home nav div, .home nav button {
+  font-size: 13px; }
+
+.home .splash-btn-wrap a {
+  border: 2px solid #fff;
+  padding: 20px 89px;
+  max-width: 270px;
+  color: #fff;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.home #logo-dark {
+  opacity: 0;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear; }
+
+.home h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 50px 0;
+  font-family: 'trajan-regular-pro';
+  line-height: 1.5; }
+  .home h1 a {
+    text-decoration: underline;
+    color: #000;
+    text-align: center; }
+
+.home h3 {
+  margin: 50px 0; }
+
+.home .gazebo-text {
+  font-size: 20px;
+  color: #515150;
+  line-height: 34px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.home .collectible-cell {
+  color: #474747;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
+.home .flickity-viewport {
+  height: 385px; }
+
+.home .collectible-cell img {
+  width: 100%;
+  padding: 30px;
+  height: 100%; }
+
 .site-header {
   height: 72px; }
 
@@ -52,6 +111,13 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.dropdown-item {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+
+.dropdown-item:hover {
+  background: #e8e8e8; }
 
 nav div {
   margin: 0 20px; }
@@ -76,15 +142,23 @@ nav div {
       -ms-flex-align: center;
           align-items: center; }
 
-.site-header button {
-  font-family: Arial, Helvetica, sans-serif; }
-
-body .site-header a {
+body .site-header a, .site-header button {
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px; }
 
 .site-header a.dropdown-item {
-  color: #000; }
+  color: #000;
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .scrolled .site-header {
   background: #fff;
@@ -103,6 +177,17 @@ body .site-header a {
   color: #000;
   background-color: transparent;
   border: none; }
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active {
+  color: #fff; }
+
+p {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.page-template-behind-scenes-page p {
+  font-size: 15px;
+  line-height: 30px;
+  padding: 20px; }
 
 .post-575-title {
   height: 670px;
@@ -1695,15 +1780,6 @@ button.mfp-arrow-left, button.mfp-arrow-right {
   display: none; }
 
 /* Home Splash */
-.splash-btn-wrap {
-  margin-top: 70px; }
-
-.splash-btn-wrap a {
-  border: 2px solid #fff;
-  padding: 20px 89px;
-  color: #fff;
-  border-radius: 17px; }
-
 .nav-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1764,43 +1840,5 @@ header {
 .page-template-films-page .book-screen {
   margin: 65px 0; }
 
-.home #logo-dark {
-  opacity: 0;
-  -webkit-transition: all 0.4s linear;
-  transition: all 0.4s linear; }
-
-.home .scrolled #logo-dark {
-  opacity: 1; }
-
-.home h1 {
-  font-size: 25px;
-  text-align: center;
-  margin: 50px 0; }
-  .home h1 a {
-    text-decoration: underline;
-    color: #000;
-    text-align: center; }
-
-.home h3 {
-  margin: 50px 0; }
-
-.home .gazebo-text {
-  font-size: 20px;
-  color: #515150;
-  line-height: 34px;
-  font-family: Arial, Helvetica, sans-serif; }
-
-.home .collectible-cell {
-  color: #474747;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  text-align: center; }
-
-.home .flickity-viewport {
-  height: 385px; }
-
-.home .collectible-cell img {
-  width: 100%;
-  padding: 30px;
-  height: 100%; }
+.blog #blog-wrap img {
+  max-height: 190px; }

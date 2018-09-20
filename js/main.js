@@ -23,7 +23,7 @@ $(document).ready(function(){
         $('.hover-btn').html('Click to find out')
     }
 
-
+    console.log('ran')
     $(window).on('scroll', function () {
         if ($(this).scrollTop() >= 20) {
             $('body').addClass('scrolled');
@@ -37,6 +37,8 @@ $(document).ready(function(){
     if (!("ontouchstart" in document.documentElement)) {
         document.documentElement.className += " no-touch";
     }
+
+    //========APPENDING TRAILERO ON FILMS============//
 
     $('#trailer1-btn').on('click', function (event) {
         event.preventDefault();
@@ -88,6 +90,8 @@ $(document).ready(function(){
         $(this).html('enjoy')
     });
 
+    //==========END OF APPENDING TRAILERS=========//
+
 
     $('#watch-ep-btn').on('click', function () {
         $(this).text($(this).text() == 'Watch First Episode' ? 'Close Episode' : 'Watch First Episode');
@@ -135,6 +139,8 @@ $(document).ready(function(){
         $(this).siblings().show();
     });
 
+    //=========COSTUME STILLS FOR MOBILE (Behind the scenes)========//
+
     $('.costume-list li').hover(function () {
         $(this).find('.info').css({
             "bottom": "0"
@@ -144,12 +150,13 @@ $(document).ready(function(){
         })
     });
 
-
     $('.ep-content .read-btn-wrap a').on('click', function (e) {
         e.preventDefault();
         $('.hidden-p').slideToggle('900', 'swing');
         $(this).text($(this).text() == 'Read More' ? 'Read Less' : 'Read More');
     })
+
+    //==============READ MORE BUTTON (Behind the scenes)=============//
 
     $('.read-more-seasons').click(function () {
         if ($('.vid-thumbnail').length <= 3) {
@@ -161,5 +168,24 @@ $(document).ready(function(){
             $(this).parent().find('li:gt(2)').slideToggle('900', 'swing');
         }
     });
+
+    //=========SMOOTH SCROLL==============//
+
+    $('a[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    }); //smooth-scroll function bracket
+
+
+    //===========TWEEN MAX ANIMATIONS============//
+
 
 })

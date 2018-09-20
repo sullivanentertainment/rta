@@ -37,7 +37,7 @@ get_header();
                                             </div>
                 </section>
                             </article>
-        <a id="anne-shirley"></a>                <article class=" character-single border-simple post-238">
+        <a id="anne-shirley"><br/><br/></a>                <article class=" character-single border-simple post-238">
                     <section class="article__content" >
                         <div class="container">
                             <section class="page__content  js-post-gallery  cf">
@@ -377,7 +377,7 @@ Shirley MacLaine Beatty made her acting debut in Hitchcock’s <em>The Trouble W
                         </div>
                     </section>
                 </article>
-            <a id="30063-2"></a>                <article class=" character-single post-30063">
+            <a id="older-anne-shirley"></a>                <article class=" character-single post-30063">
                     <section class="article__content" >
                         <div class="container">
                             <section class="page__content  js-post-gallery  cf">

@@ -6,6 +6,14 @@ nav{
     align-items:center;
 }
 
+.dropdown-item{
+    transition:all 0.3s linear;
+}
+
+.dropdown-item:hover{
+    background:#e8e8e8;
+}
+
 nav div{
     margin:0 20px;
 }
@@ -31,17 +39,19 @@ nav div{
     align-items: center;
 }
 
-.site-header button{
-    font-family:Arial, Helvetica, sans-serif
-}
 
-body .site-header a{
+body .site-header a, .site-header button{
     color:#fff;
     font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
 }
 
 .site-header a.dropdown-item{
-    color:#000;
+    color: #000;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -67,4 +77,18 @@ body .site-header a{
     color: #000;
     background-color: transparent;
     border:none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active{
+    color:#fff;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.page-template-behind-scenes-page p{
+    font-size: 15px;
+    line-height: 30px;
+    padding:20px;
 }

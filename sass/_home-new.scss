@@ -1,18 +1,39 @@
 .home{
 
+    .splash-btn-wrap{
+        margin-top: 70px;
+    }
+
+    .wp-image-29564 {
+        margin-left: 36px;
+        max-width: 1115px;
+        max-height: 301px;
+    }
+
+    nav div, nav button{
+        font-size:13px;
+    }
+    
+    .splash-btn-wrap a{
+        border: 2px solid #fff;
+        padding: 20px 89px;
+        max-width:270px;
+        color: #fff;
+        border-radius: 3px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
     #logo-dark{
         opacity:0;
         transition:all 0.4s linear;
-    }
-    
-    .scrolled #logo-dark{
-        opacity:1;
     }
 
     h1{
         font-size: 25px;
         text-align: center;
         margin: 50px 0;
+        font-family: 'trajan-regular-pro';
+        line-height: 1.5;
         a{
             text-decoration: underline;
             color: #000;
