@@ -69,6 +69,17 @@
         padding:30px;
         height:100%;
     }
+    
+    .character-slide{
+        display:flex;
+        justify-content: center;
+        p{
+            position:absolute;
+            bottom:0;
+            color:#fff;
+            font-family:$mainFont;
+        }
+    }
 
     
 }

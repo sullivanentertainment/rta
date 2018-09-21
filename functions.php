@@ -299,3 +299,15 @@ function wpb_list_child_pages() {
 	}
 	 
 	add_shortcode('wpb_childpages', 'wpb_list_child_pages');
+
+// Limit Excerpt code & change end of excerpt
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 30;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+function wpdocs_excerpt_more( $more ) {
+    return '...';
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );

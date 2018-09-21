@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     rename = require('gulp-rename'),
     cssnano = require('gulp-cssnano'),
-    uglify = require('gulp-uglify'),
+    uglify = require('gulp-uglify-es').default,
     eslint = require('gulp-eslint'),
     browserSync = require('browser-sync');
 

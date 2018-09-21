@@ -1,11 +1,14 @@
 
 $(document).ready(function(){
+
+    //=========MAIN CAROUSEL============//
     
     $('.main-carousel').flickity({
         // options
         cellAlign: 'left',
         contain: true
     });
+
 
     $('.flip-container').click(function () {
         $(this).find('.flipper').toggleClass('flippedCard');
@@ -23,7 +26,6 @@ $(document).ready(function(){
         $('.hover-btn').html('Click to find out')
     }
 
-    console.log('ran')
     $(window).on('scroll', function () {
         if ($(this).scrollTop() >= 20) {
             $('body').addClass('scrolled');
@@ -123,6 +125,9 @@ $(document).ready(function(){
 
     });
 
+
+
+
     $('#main-list li:gt(2)').hide();
     $('.read-more').click(function () {
         var z = 2;
@@ -183,6 +188,8 @@ $(document).ready(function(){
             }
         }
     }); //smooth-scroll function bracket
+
+    console.log('test');
 
 
     //===========TWEEN MAX ANIMATIONS============//

@@ -17,23 +17,51 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+		<?php
+    $args = array(
+		'post_type' => 'post',
+		'posts_per_page' => 1
+    );
+
+    $post_query = new WP_Query($args);
+if($post_query->have_posts() ) {
+  while($post_query->have_posts() ) {
+    $post_query->the_post();
+	?>
+	<div class="blog-bg" style="width:100vw;height:31vh;background:url('<?php echo get_the_post_thumbnail_url(null, 'full'); ?>');background-repeat:no-repeat;background-size:100% 100%">
+		<h2 class="offset-sm-2"><?php the_title(); ?></h2>
+  	</div>
+    <?php
+  }
+}
+?>
+		<hr class="container">
+		<h3 class="latest">Latest</h3>
 		<section id="blog-wrap" class="container row">
+
 		<?php
 				$currentPage = get_query_var('paged'); 
 				$args = array(
 					'post_type' => 'post',
-					'posts_per_page'   => 10,
+					'posts_per_page'   => 9,
 					'paged' => $currentPage
 				);
 			
 
-				$post_query = new WP_Query($args);
+			$post_query = new WP_Query($args);
 			if($post_query->have_posts() ) {
 				while($post_query->have_posts() ) {
 				$post_query->the_post();
 				?>
 				<div class="blog-item col-sm-4">
-					<?php the_post_thumbnail(); ?>
+					<?php
+						$category = get_the_category();
+						$firstCategory = $category[0]->cat_name;
+					?>
+					<p class="cat-name"><?php echo $firstCategory ?></p>
+					<a href="<?php echo get_the_permalink()?>">
+						<?php the_post_thumbnail(); ?>
+					</a>
 					<h2><?php the_title(); ?></h2>
 					<p><?php the_excerpt(); ?></p>
 					

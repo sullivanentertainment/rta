@@ -18,6 +18,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<?php wp_head(); ?>
 	<script
@@ -70,7 +71,7 @@
 			<a href="<?php echo get_template_directory_uri(); ?>/behind-the-scenes" class="">BEHIND THE SCENES</a>
 		</div>
 		<div>
-			<a href="#" class="">WATCH NOW</a>
+			<a href="https://gazebotv.com/" class="">WATCH NOW</a>
 		</div>
 		<div>
 			<a href="<?php echo get_template_directory_uri(); ?>/blog" class="">BLOG</a>

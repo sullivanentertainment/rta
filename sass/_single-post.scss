@@ -1,0 +1,122 @@
+.single-post{
+    
+    header{
+        position:static;
+    }
+    h1{
+        font-family:$mainFont;
+        font-size:27px;
+        font-weight: bold;
+    }
+
+    .blog-img img{
+        width:100%;
+        margin:40px 0;
+    }
+
+    .single-post-wrap{
+        margin:0 auto;
+    }
+
+    h3{
+        font-family:$mainFont;
+        margin: 40px 0;
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .inner-social{
+        display:flex;
+        justify-content: center;
+            i{
+                font-size: 30px;
+                margin: 13px;
+                background: grey;
+                width: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                height: 45px;
+                color:#fff;
+            }
+    }
+
+    .wpcf7-email{
+        max-width:200px;
+    }
+
+    .env-wrap, .mail-wrap{
+        text-align: center;
+    }
+
+    .mail-wrap{
+        input{
+            padding: 10px 5px;
+        }
+    }
+
+    .fa-envelope-open-text{
+        font-size:50px;
+        margin: 25px;
+    }
+
+    h4{
+        font-family:$mainFont;
+        margin:10px 0;
+    }
+
+    .wpcf7-submit{
+        box-shadow: none;
+        color: #fff;
+        border: none;
+        background: #27ae60;
+        margin: 20px;
+        padding: 10px 55px;
+        font-family: $mainFont;
+        font-size: 19px;
+    }
+
+    #wpcf7-f32237-p26585-o1{
+        text-align:center;
+    }
+
+    .recent{
+        margin:10px 0;
+    }
+
+    .cat-item{
+        font-family: $subFont;
+        list-style:none;
+        margin: 10px 0;
+    }
+
+    .shop-anne-btn{
+        width: 100%;
+        display: inline-block;
+        border: 2px solid #8b8989;
+        border-radius: 8px;
+        text-align: center;
+        padding: 19px;
+        box-shadow: -6px 3px 26px 0 rgba(0,0,0,.11);
+        color: #8b8989;
+        font-family:$mainFont;
+    }
+
+    .single-blog-meta{
+        margin:40px 0;
+    }
+
+    hr{
+        background:#41ad49;
+        width:100%vw;
+    }
+    
+
+   
+
+}
+
+header{
+    display:none;
+}

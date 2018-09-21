@@ -1384,11 +1384,6 @@ button.mfp-arrow-left, button.mfp-arrow-right{
     transform: rotate(0deg);
 }
 
-.blog img, .category.archive .page-content img{
-    max-height:365px;
-    object-fit: cover;
-}
-
 #categories-4 ul li{
     display:none;
 }
@@ -1487,7 +1482,10 @@ button.mfp-arrow-left, button.mfp-arrow-right{
     font-family:'trajan-regular-pro';
     background:#41ad49;
     padding-top:45px;
-    
+}
+
+#blog-bg{
+    height:50vh !important;
 }
 
 .fadeOut{

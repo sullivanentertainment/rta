@@ -86,7 +86,34 @@ echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables
 </div>
 </div>
 <h3 class="product-heading product-heading3">The Characters</h3>
-<?php echo do_shortcode('[carousel_slide id="29487"]'); ?>
+
+<ul class="main-carousel">
+    <li class="carousel-cell character-slide col-sm-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+        <p>Anne Shirley</p>
+    </li>
+    <li class="carousel-cell character-slide col-sm-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/static-images/gilbert-1.jpg">
+    </li>
+    <li class="carousel-cell character-slide col-sm-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    </li>
+    <li class="carousel-cell character-slide col-sm-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    </li>
+    <li class="carousel-cell character-slide col-sm-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    </li>
+    <li class="carousel-cell character-slide col-sm-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    </li>
+    <li class="carousel-cell character-slide col-sm-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    </li>
+    <li class="carousel-cell character-slide col-sm-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    </li>
+</ul>
 
 <h3 class="product-heading product-heading1">OFFICIAL ANNE COLLECTIBLES</h3>
 <ul class="main-carousel">
