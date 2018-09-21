@@ -6,9 +6,18 @@ $(document).ready(function(){
     $('.main-carousel').flickity({
         // options
         cellAlign: 'left',
-        contain: true
+        contain: true,
+        wrapAround: true
     });
 
+
+    //=========TWEEN MAX=========//
+
+ 
+
+    //========COMPARISON SLIDER=========//
+
+    
 
     $('.flip-container').click(function () {
         $(this).find('.flipper').toggleClass('flippedCard');
@@ -189,10 +198,26 @@ $(document).ready(function(){
         }
     }); //smooth-scroll function bracket
 
-    console.log('test');
 
 
-    //===========TWEEN MAX ANIMATIONS============//
+    //===========TWEEN MAX && SCROLL MAGIC ANIMATIONS============//
+
+    TweenMax.to('.splash-btn-wrap a', 1.8, {
+		top:0,
+		ease:Back.easeOut,
+		opacity:1
+    })
+    
+    var controller = new ScrollMagic.Controller();
+
+    var filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
+        opacity:1, delay:2
+    }, 0.2)
+
+     new ScrollMagic.Scene({
+            triggerElement:'.anne-container'
+    }).setTween(filmTween)
+    .addTo(controller)
 
 
 })

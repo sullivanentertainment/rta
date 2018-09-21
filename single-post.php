@@ -60,12 +60,14 @@ get_header();
                                     <i class="fab fa-twitter"></i>
                                 </a>
                             </div>
+                            <div class="mail-wrapper">
                             <div class="env-wrap">
                                 <i class="fas fa-envelope-open-text"></i>
                             </div>
                             <?php
                             echo do_shortcode('[contact-form-7 id="32237" title="Mailing List"]');
                             ?>
+                            </div>
                         </div>
                         <a href="#" class="shop-anne-btn">Shop All Anne</a>
                         <div class="categories">

@@ -20,7 +20,7 @@ get_header();
             <div class="button-img-wrap">
                 <img src="<?php
 echo get_template_directory_uri();
-?>/static-images/anne-logo-white.png" alt="anne-logo">
+?>/static-images/anne-logo-white.png" alt="anne-logo" class="main-logo">
                 <div class="splash-btn-wrap">
                     <a href="https://gazebotv.com/product-detail/24394">WATCH ONLINE</a>
                     <a href="https://shopatsullivan.com/dvds/anne-of-green-gables.html">BUY DVDS & BLU-RAY</a>
@@ -35,8 +35,8 @@ echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables
 
 <h1>THE ANNE OF GREEN GABLES FILMS ENCOMPASS 200 HOURS OF SULLIVAN <br/><a href="#">PERIOD DRAMA</a></h1>
        <h3 class="section-header">The Films</h3>
-<div class="row">
-<div class="col-md-3">
+<div class="row anne-container">
+<div class="col-lg-3 col-md-6">
 <a href="/films/#anne-of-green-gables" class="anne-info-wrapper">
 <div class="front-img-wrap"><img class="aligncenter wp-image-29234 size-full" src="https://anneofgreengables.com/wp-content/uploads/2018/03/aogg.jpg" alt="anne of green gables movie" width="260" height="390" />
 <div class="anne-info">
@@ -48,7 +48,7 @@ echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables
 
 </a>
 </div>
-<div class="col-md-3">
+<div class="col-lg-3 col-md-6">
 <a href="/films/#anne-of-avonlea" class="anne-info-wrapper">
 <div class="front-img-wrap"><img class="aligncenter wp-image-29235 size-full" src="https://anneofgreengables.com/wp-content/uploads/2018/03/aogg_02.jpg" alt="anne of avonlea movie" width="260" height="390" />
 <div class="anne-info">
@@ -61,7 +61,7 @@ echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables
 
 </a>
 </div>
-<div class="col-md-3">
+<div class="col-lg-3 col-md-6">
 <a href="/films/#anne-the-continuing-story" class="anne-info-wrapper">
 <div class="front-img-wrap"><img class="aligncenter wp-image-29236 size-full" src="https://anneofgreengables.com/wp-content/uploads/2018/03/aogg_03.jpg" alt="anne the continuing story movie" width="260" height="390" />
 
@@ -73,7 +73,7 @@ echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables
 </div></div>
 </a>
 </div>
-<div class="col-md-3">
+<div class="col-lg-3 col-md-6">
 <a href="/films/#anne-a-new-beginning" class="anne-info-wrapper">
 <div class="front-img-wrap"><img class="aligncenter wp-image-29237 size-full" src="https://anneofgreengables.com/wp-content/uploads/2018/03/aogg_04.jpg" alt="a new beginning movie" width="260" height="390" /></div>
 <div class="anne-info">
@@ -87,31 +87,66 @@ echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables
 </div>
 <h3 class="product-heading product-heading3">The Characters</h3>
 
-<ul class="main-carousel">
-    <li class="carousel-cell character-slide col-sm-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
-        <p>Anne Shirley</p>
+<ul class="main-carousel character-slider">
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+            <p>Anne Shirley</p>
+        </a>
     </li>
-    <li class="carousel-cell character-slide col-sm-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/static-images/gilbert-1.jpg">
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/gilbert-1.jpg">
+            <p>Gilbert Blythe</p>        
+        </a>
     </li>
-    <li class="carousel-cell character-slide col-sm-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/marilla-1.jpg">
+            <p>Marilla Cuthbert</p>
+        </a>
     </li>
-    <li class="carousel-cell character-slide col-sm-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/matthew-1.jpg">
+            <p>Matthew Cuthbert</p>
+        </a>
     </li>
-    <li class="carousel-cell character-slide col-sm-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/diana-1.jpg">
+            <p>Diana Berry</p>
+        </a>
     </li>
-    <li class="carousel-cell character-slide col-sm-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/rachellynde-1.jpg">
+            <p>Rachel Lynde</p>
+        </a>
     </li>
-    <li class="carousel-cell character-slide col-sm-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/mrharris-1.jpg">
+            <p>Morgan Harris</p>
+        </a>
     </li>
-    <li class="carousel-cell character-slide col-sm-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-1.jpg">
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/mrsharris-1.jpg">
+            <p>Mrs.Harris</p>
+        </a>
+    </li>
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/youngeanne-1.jpg">
+            <p>Young Anne</p>
+        </a>
+    </li>
+    <li class="carousel-cell character-slide col-lg-2 col-md-4 col-sm-12">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/static-images/ameliathomas-1.jpg">
+            <p>Amelia Thomas</p>
+        </a>
     </li>
 </ul>
 

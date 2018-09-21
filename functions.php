@@ -128,7 +128,7 @@ function sullivan_entertainment_scripts() {
 
 	wp_enqueue_script( 'sullivan-entertainment-flickity', get_template_directory_uri() . '/js/flickity.pkgd.js', array('jquery'), '20130115', true );
 
-	wp_enqueue_script( 'sullivan-entertainment-main-js', get_template_directory_uri() . '/js/main.js', array(), '20130115', true );
+	// wp_enqueue_script( 'sullivan-entertainment-main-js', get_template_directory_uri() . '/js/main.js', array(), '20130115', true );
 
 	wp_enqueue_script( 'sullivan-entertainment-bootstrap', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array(), '20130115', true );
 

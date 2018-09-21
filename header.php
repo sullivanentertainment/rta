@@ -30,26 +30,35 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header row">
-		<div class="container header-wrap">
-			<div class="fade-logos-wrap col-md-2">
+
+<nav class="navbar navbar-expand-lg navbar-light col-sm-12">
+<div class="fade-logos-wrap col-sm-1">
 				<a href="/">
 					<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-white.png" id="logo-light"/>
 					<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-dark.png" id="logo-dark"/>
 				</a>
 			</div>
-		<nav class="row offset-md-1 col-md-9">
-		<div class="dropdown ">
-			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				FILMS
-			</button>
-			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneofgreengables">Anne of Green Gables</a>
-				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneofavonlea">Anne of Avonlea</a>
-				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#annethecontinuingstory">The Continuing Story</a>
-				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneanewbeginnging">A New Beginning</a>
-			</div>
-		</div>
-		<div class="dropdown ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav container-fluid">
+      <li class="nav-item col-lg-2 col-md-12">
+        <div class="dropdown ">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            FILMS
+          </button>
+          <div class="dropdown-menu col-md-12" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneofgreengables">Anne of Green Gables</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneofavonlea">Anne of Avonlea</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#annethecontinuingstory">The Continuing Story</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneanewbeginnging">A New Beginning</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item col-lg-2 col-md-12">
+      <div class="dropdown ">
 			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				CHARACTERS
 			</button>
@@ -67,20 +76,25 @@
 				<a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/characters/#older-anne-shirley">Older Anne Shirley</a>
 			</div>
 		</div>
-		<div>
-			<a href="<?php echo get_template_directory_uri(); ?>/behind-the-scenes" class="">BEHIND THE SCENES</a>
-		</div>
-		<div>
-			<a href="https://gazebotv.com/" class="">WATCH NOW</a>
-		</div>
-		<div>
-			<a href="<?php echo get_template_directory_uri(); ?>/blog" class="">BLOG</a>
-		</div>
-		<div>
-			<a href="#" class="">SHOP</a>
-		</div>
-		</nav>
-		</div>
+      </li>
+      <li class="nav-item col-lg-2 col-md-12">
+        <a href="<?php echo get_template_directory_uri(); ?>/behind-the-scenes" class="">BEHIND THE SCENES</a>
+      </li>
+      <li class="nav-item col-lg-2 col-md-12">
+        <a href="https://gazebotv.com/" class="">WATCH NOW</a>
+      </li>
+      <li class="nav-item col-lg-2 col-md-12">
+        <a href="<?php echo get_template_directory_uri(); ?>/blog" class="">BLOG</a>
+      </li>
+      <li class="nav-item col-lg-2 col-md-12">
+        <a href="#" class="">SHOP</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+		
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

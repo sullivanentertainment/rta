@@ -813,31 +813,6 @@ html body .page .film-wrapper .home-shop:hover{
     margin-top:50px !important;
 }
 
-.contest-header{
-	font-family:'trajan-regular-pro';
-	margin:0;
-}
-
-
-
-
-#pum-30016 .contest-header{
-    text-align:center;
-}
-
-#pum-30016 p{
-    font-size:16px;
-    color:#000;
-    text-align:center;
-}
-
-body #pum-30016{
-    background-color: rgba(255,255,255,0.5);
-}
-
-.pum-theme-29881 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close{
-        background-color: #41ad49 !important;
-}
 
 #popmake-30016 {
     top: 0 !important;
@@ -1053,27 +1028,6 @@ body #pum-30016{
     margin-top:40px;
 }
 
-.carousel-slider-outer-29813 .carousel-slider__item img {
-    border-bottom: 1px solid #e8e8e8;
-    padding: 21px;
-}
-
-.carousel-slider-outer-29813.carousel-slider-outer-images .carousel-slider__caption .caption{
-    font-weight: 300;
-    margin: 10px 0 0;
-    text-align: center;
-    color: #000;
-    font-size: 20px;
-}
-
-.carousel-slider-outer-29813 .carousel-slider__item img {
-    padding: 39px;
-}
-
-#id-29813, #post-853{
-    margin-bottom:90px;
-}
-
 .page-template-limited-edition{
     background:#fff;
 }
@@ -1105,17 +1059,6 @@ body #pum-30016{
 
 
 @media only screen and (max-width:850px){
-    .palm-one-whole{
-        margin-bottom:30px;
-    }
-    
-    .navigation--main .nav--main li{
-        padding: 0 20px;
-    }
-    
-    .sub-menu li:hover{
-        background:transparent;
-    }
     
      .js-post-gallery{
         display:flex;
@@ -1893,5 +1836,11 @@ header{
 
 .fade-logos-wrap img{
   max-height:40px;
+}
+
+.cd-image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 

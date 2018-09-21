@@ -21,6 +21,7 @@
         color: #fff;
         border-radius: 3px;
         font-family:Arial, Helvetica, sans-serif;
+        position:relative;
     }
 
     #logo-dark{
@@ -81,5 +82,51 @@
         }
     }
 
-    
+    .character-slide img{
+        height:170px;
+    }
+
+    //=========CAROUSEL CUSTOM CSS===========//
+
+    .character-slider .flickity-page-dots{
+        li:nth-child(4), li:nth-child(5), li:nth-child(6), li:nth-child(7), li:nth-child(8){
+            display:none;
+        }
+    }
+
+    .character-slider .carousel-cell{
+        position:relative;
+        max-width: 172px;
+        p{
+            opacity:0;
+            transition:all 0.3s linear;
+            text-align:center;
+            width: 100%;
+        }
+        &:before{
+            content:'';
+            background:rgba(0,0,0,0);
+            width: 100%;
+            height: 100%;
+            position:absolute;
+            top:0;
+            max-height: 171px;
+        }
+        &:hover{
+            p{
+                opacity:1;
+            }
+            &:before{
+                content:'';
+                background:rgba(0,0,0,0.5);
+                width: 100%;
+                height: 100%;
+                position:absolute;
+                top:0;
+                max-height: 171px;
+            }
+        }
+        
+
+    }
 }
