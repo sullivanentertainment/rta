@@ -88,12 +88,6 @@
 
     //=========CAROUSEL CUSTOM CSS===========//
 
-    .character-slider .flickity-page-dots{
-        li:nth-child(4), li:nth-child(5), li:nth-child(6), li:nth-child(7), li:nth-child(8){
-            display:none;
-        }
-    }
-
     .character-slider .carousel-cell{
         position:relative;
         max-width: 172px;

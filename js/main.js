@@ -208,11 +208,17 @@ $(document).ready(function(){
 		opacity:1
     })
     
-    var controller = new ScrollMagic.Controller();
+    const controller = new ScrollMagic.Controller();
 
-    var filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
+    const filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
         opacity:1, delay:2
     }, 0.2)
+
+    const collectiblesTween = TweenMax.staggerTo('collectible-cell', 0.7, {
+        transform:translate(100)
+    })
+
+
 
      new ScrollMagic.Scene({
             triggerElement:'.anne-container'
