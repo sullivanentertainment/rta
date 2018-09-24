@@ -17,24 +17,30 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-		<?php
-    $args = array(
-		'post_type' => 'post',
-		'posts_per_page' => 1
-    );
+	<div class="blog-bg">
+		<h2>Blog</h2>
+	</div>
+	<div class="cat-search-wrap row">
+	<?php 
+		echo get_search_form(); ?>
 
-    $post_query = new WP_Query($args);
-if($post_query->have_posts() ) {
-  while($post_query->have_posts() ) {
-    $post_query->the_post();
+		<div class="dropdown col-sm-6 cat-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            CATEGORIES
+          </button>
+          <div class="dropdown-menu col-md-6 text-center" aria-labelledby="dropdownMenuButton">
+          <?php
+		$categories = get_categories();
+		foreach($categories as $category) {
+		   echo '<div class="col-md-12"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
+		} 
 	?>
-	<div class="blog-bg" style="width:100vw;height:31vh;background:url('<?php echo get_the_post_thumbnail_url(null, 'full'); ?>');background-repeat:no-repeat;background-size:100% 100%">
-		<h2 class="offset-sm-2"><?php the_title(); ?></h2>
-  	</div>
-    <?php
-  }
-}
-?>
+		</div>
+	</div>
+       
+	
+	 </div>
+	
 		<hr class="container">
 		<h3 class="latest">Latest</h3>
 		<section id="blog-wrap" class="container row">

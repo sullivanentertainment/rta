@@ -14,36 +14,44 @@ get_header();
 		<main id="main" class="site-main">
 
 		<?php if ( have_posts() ) : ?>
-
+		
 			<header class="page-header">
 				<?php
 				the_archive_title( '<h1 class="page-title">', '</h1>' );
 				the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-
+			<div class="category-wrapper container">
+			<?php 
+		
+		$categories = get_the_category();
+		$category_id = $categories[0]->cat_ID;
+		echo '<h1>' . get_the_category_by_ID($category_id ) . '</h1>';
+		?>
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
+			?>
+			<div class="single-cat-wrap row">
+				<div class="col-md-6"><a href="<?php echo the_permalink(); ?>"><?php echo get_the_post_thumbnail(); ?></a></div>
+				<div class="col-md-6">
+					<p class="date"><?php echo get_the_date(); ?></p>
+					<br/>
+					<h2><?php echo the_title(); ?></h2>
+					<?php the_excerpt(); ?>
+					<a href="<?php echo the_permalink()?>" class="read-more-btn">READ MORE</a>
+				</div>
+			</div>
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+			<?php
+		
 
 			endwhile;
 
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
 		endif;
 		?>
+		</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -151,7 +151,7 @@ echo do_shortcode('[vidbg container="#main-video" mp4="https://anneofgreengables
 </ul>
 
 <h3 class="product-heading product-heading1">OFFICIAL ANNE COLLECTIBLES</h3>
-<ul class="main-carousel">
+<ul class="main-carousel collectible-slider">
 <?php
 $args = array(
     'post_type' => 'collectibles', // Your custom post type
@@ -172,37 +172,6 @@ $args = array(
     wp_reset_postdata();
 ?>
 </ul>
-
-<!-- <ul class="product-list">
-     <li><a href="https://shopatsullivan.com/index.php/catalog/product/view/id/298/s/anne-of-green-gables-hat-with-braids/"><img class="aligncenter wp-image-29139 size-full" src="https://anneofgreengables.com/wp-content/uploads/2018/03/Anne-Hat_NEW.jpg" alt="" width="300" height="189" />
-</a>
-<p class="product-title">Anne Hat
-With Braids</p>
-<p class="product-price">$15.99</p>
-&nbsp;
-<div class="film-wrapper"><a class="home-shop" href="https://shopatsullivan.com/index.php/catalog/product/view/id/298/s/anne-of-green-gables-hat-with-braids/">Buy Now</a></div></li>
-     <li><a href="https://shopatsullivan.com/index.php/catalog/product/view/id/233/s/anne-shirley-avonlea-fragrance-3-4-oz/category/172/"><img class="aligncenter wp-image-29141 size-full" src="https://anneofgreengables.com/wp-content/uploads/2018/03/Anne-Perfume_NEW.jpg" alt="" width="300" height="189" />
-</a>
-<p class="product-title">Anne Inspired
-Perfumes</p>
-<p class="product-price">$34.99</p>
-&nbsp;
-<div class="film-wrapper"><a class="home-shop" href="#">Buy Now</a></div></li>
-     <li><a href="https://shopatsullivan.com/catalog/product/view/id/2683/s/anne-of-green-gables-limited-edition-blu-ray-collectors-set/category/4/"><img class="aligncenter wp-image-29140 size-full" src="https://anneofgreengables.com/wp-content/uploads/2018/03/Blu-ray-Box-Set1.jpg" alt="" width="300" height="189" />
-</a>
-<p class="product-title">The Limited Edition
-Blu-ray Box Set</p>
-<p class="product-price">$17.99</p>
-&nbsp;
-<div class="film-wrapper"><a class="home-shop" href="#">Buy Now</a></div></li>
-     <li><a href="https://shopatsullivan.com/catalog/product/view/id/1342/s/anne-of-green-gables-the-emmy-award-winning-kevin-sullivan-restoration/category/4/"><img class="aligncenter wp-image-29138 size-full" src="https://anneofgreengables.com/wp-content/uploads/2018/03/DVD_Box-Set.jpg" alt="" width="300" height="189" />
-</a>
-<p class="product-title">The Kevin Sullivan Restoration
-DVD Box Set</p>
-<p class="product-price">$79.99</p>
-&nbsp;
-<div class="film-wrapper"><a class="home-shop" href="#">Buy Now</a></div></li>
-</ul> -->
 
 <p style="text-align: center;">  <a href="http://shopatsullivan.com"><img class="wp-image-1120 size-medium aligncenter" src="https://anneofgreengables.com/wp-content/uploads/2018/03/shopatsullivan_logo_2018_500px-300x123.png" alt="" width="300" height="123" /></a></p>
 

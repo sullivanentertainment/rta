@@ -17,6 +17,7 @@
                     font-size: 25px;
                     font-weight: bold;
                     margin: 20px 0;
+                    font-family:$mainFont;
                 }
         }
     }
@@ -24,11 +25,16 @@
     .blog-bg{
         display:flex;
         align-items: center;
+        height:500px;
+        width:100vw;
+        background:url('./static-images/anne-blog-bg.jpg');
             h2{
                 font-size:44px;
                 font-family: 'trajan-regular-pro';
                 color: #fff;
                 font-weight:bold;
+                width:100vw;
+                text-align:center;
             }
     }
 
@@ -48,5 +54,48 @@
         color: #28a745;
     }
 
+    // Search Form
+
+    .search-form{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .search-submit{
+        box-shadow: none;
+        border: none;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        padding: 10px 15px;
+        background:$mainColor;
+        color:#fff;
+        display:none;
+    }
+
+    .search-field{
+        border: 1px solid #e8e8e8;
+        padding: 10px 15p
+    }
+
+    form .screen-reader-text{
+        display:none;
+    }
+
+    .cat-search-wrap{
+        margin:20px;
+        .btn-secondary{
+            color:#000;
+        }
+    }
+
+    .cat-dropdown a{
+        color: #41ad49;
+        margin: 12px 0;
+        display: inline-block;
+    }
+
+    
 
 }

@@ -1,8 +1,8 @@
 
-$(document).ready(function(){
+$(document).ready(function () {
 
     //=========MAIN CAROUSEL============//
-    
+
     $('.main-carousel').flickity({
         // options
         cellAlign: 'left',
@@ -13,11 +13,11 @@ $(document).ready(function(){
 
     //=========TWEEN MAX=========//
 
- 
+
 
     //========COMPARISON SLIDER=========//
 
-    
+
 
     $('.flip-container').click(function () {
         $(this).find('.flipper').toggleClass('flippedCard');
@@ -86,7 +86,7 @@ $(document).ready(function(){
         })
         $(this).html('enjoy')
     });
-    
+
     $('.trailer-wrapper iframe:nth-child(2)').remove();
 
     $('#trailer4-btn').on('click', function (event) {
@@ -198,32 +198,47 @@ $(document).ready(function(){
         }
     }); //smooth-scroll function bracket
 
+    $('.search-form').addClass('col-sm-6');
+
+    $('.category-wrapper article').addClass('col-sm-6')
+
+    console.log('cat')
+
+
 
 
     //===========TWEEN MAX && SCROLL MAGIC ANIMATIONS============//
 
     TweenMax.to('.splash-btn-wrap a', 1.8, {
-		top:0,
-		ease:Back.easeOut,
-		opacity:1
+        top: 0,
+        ease: Back.easeOut,
+        opacity: 1
     })
-    
+
     const controller = new ScrollMagic.Controller();
 
     const filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
-        opacity:1, delay:2
+        opacity: 1, delay: 2
     }, 0.2)
 
-    const collectiblesTween = TweenMax.staggerTo('collectible-cell', 0.7, {
-        transform:translate(100)
-    })
+    const collectiblesTween = TweenMax.staggerTo('.collectible-cell', 0.7, {
+        transform: 'translate(0)',
+        opacity: 1,
+        delay:2
+    }, 0.4)
 
 
 
-     new ScrollMagic.Scene({
-            triggerElement:'.anne-container'
+    new ScrollMagic.Scene({
+        triggerElement: '.anne-container'
     }).setTween(filmTween)
-    .addTo(controller)
+        .addTo(controller)
 
+    new ScrollMagic.Scene({
+        triggerElement: '.collectible-slider'
+    }).setTween(collectiblesTween)
+        .addTo(controller)
+
+    
 
 })

@@ -303,7 +303,7 @@ function wpb_list_child_pages() {
 // Limit Excerpt code & change end of excerpt
 
 function wpdocs_custom_excerpt_length( $length ) {
-    return 30;
+    return 60;
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
