@@ -1839,3 +1839,9 @@ header{
 .costume-text-1 .before-after-wrapper img, .costume-text-2 .before-after-wrapper img{
     width:100%;
 }
+
+.img-comp-container{
+    @include mobile{
+        display:none;
+    }
+}
