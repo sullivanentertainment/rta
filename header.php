@@ -87,7 +87,7 @@
         <a href="<?php echo get_template_directory_uri(); ?>/blog" class="">BLOG</a>
       </li>
       <li class="nav-item">
-        <a href="<?php echo get_template_directory_uri(); ?>/anne/?s=recipes" class="">RECIPES</a>
+        <a href="https://anneofgreengables.com/?s=recipes" class="">RECIPES</a>
       </li>
       <li class="nav-item">
         <a href="#" class="">SHOP</a>
