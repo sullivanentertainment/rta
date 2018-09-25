@@ -218,22 +218,22 @@ $(document).ready(function () {
         top:0,
         ease: Back.easeOut,
     })
-
-    // const controller = new ScrollMagic.Controller();
+    const controller = new ScrollMagic.Controller();
        
-    //     var filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
-    //         opacity: 1, delay: 2
-    //     }, 0.2)
+        var filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
+            opacity: 1, delay: 2
+        }, 0.2)
 
-    //     var scene =  new ScrollMagic.Scene({
-    //         triggerElement: '.anne-container'
-    //     }).setTween(filmTween)
-    //     .setPin(".anne-container", {pushFollowers: true})
-    //     .addIndicators(true)
-    // .addTo(controller);
+        var scene =  new ScrollMagic.Scene({
+            triggerElement: '.anne-container'
+        }).setTween(filmTween)
+        .setPin(".anne-container", {pushFollowers: true})
+        .addIndicators(true)
+    .addTo(controller);
 
 
   
+
 
     // const collectiblesTween = TweenMax.staggerTo('.collectible-cell', 0.7, {
     //     transform: 'translate(0)',
