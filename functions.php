@@ -311,3 +311,30 @@ function wpdocs_excerpt_more( $more ) {
     return '...';
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
+
+// Add the filter to manage the p tags
+add_filter( 'the_content', 'wti_remove_autop_for_image', 0 );
+
+function wti_remove_autop_for_image( $content )
+{
+     global $post;
+
+     // Check for single page and image post type and remove
+     if ( is_single() && $post->post_type == 'image' )
+          remove_filter('the_content', 'wpautop');
+
+     return $content;
+}
+
+remove_filter ('the_content', 'wpautop');
+
+//Only show posts in search
+
+function SearchFilter($query) {
+    if ($query->is_search) {
+        $query->set('post_type', 'post');
+    }
+    return $query;
+}
+add_filter('pre_get_posts','SearchFilter');

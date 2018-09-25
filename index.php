@@ -18,7 +18,9 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 	<div class="blog-bg">
-		<h2>Blog</h2>
+		<div class="blog-heading-wrapper">
+			<h2>Blog</h2>
+		</div>
 	</div>
 	<div class="cat-search-wrap row">
 	<?php 
@@ -59,7 +61,7 @@ get_header();
 				while($post_query->have_posts() ) {
 				$post_query->the_post();
 				?>
-				<div class="blog-item col-sm-4">
+				<div class="blog-item col-sm-12 col-md-6 col-lg-4">
 					<?php
 						$category = get_the_category();
 						$firstCategory = $category[0]->cat_name;

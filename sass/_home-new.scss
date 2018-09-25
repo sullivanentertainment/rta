@@ -16,12 +16,17 @@
     
     .splash-btn-wrap a{
         border: 2px solid #fff;
-        padding: 20px 89px;
-        max-width:270px;
+        max-width: 270px;
         color: #fff;
         border-radius: 3px;
-        font-family:Arial, Helvetica, sans-serif;
-        position:relative;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        height: 60px;
+        display: flex;
+        font-weight: 100;
+        align-items: center;
+        justify-content: center;
+        width: 270px;
     }
 
     #logo-dark{
@@ -59,8 +64,6 @@
         font-family:Arial, Helvetica, sans-serif;
         text-transform:uppercase;
         text-align:center;
-        opacity:0;
-        transform:translate(100px)
     }
 
     .flickity-viewport{
@@ -98,6 +101,7 @@
             transition:all 0.3s linear;
             text-align:center;
             width: 100%;
+            margin-bottom: 20px;
         }
         &:before{
             content:'';
@@ -124,5 +128,14 @@
         }
         
 
+    }
+
+    @media (max-width:700px){
+        .splash-btn-wrap{
+            flex-direction: column;
+            a{
+                width:65vw;
+            }
+        }
     }
 }

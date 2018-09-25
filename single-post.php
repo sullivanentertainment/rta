@@ -19,13 +19,13 @@ get_header();
             
             <div class="single-post-wrap container row">
                     <div class="single-post-left col-md-9">
+                        <h1><?php the_title(); ?></h1>
+                        <div class="blog-img"><?php the_post_thumbnail(); ?></div>
                         <div class="single-blog-meta">
                             <p>By Adriana P.</p>
                             <p>Est. Read Time:</p>
                             <p>Date:<?php echo get_the_date(); ?></p>
                         </div>
-                        <h1><?php the_title(); ?></h1>
-                        <span class="blog-img"><?php the_post_thumbnail(); ?></span>
                         <div class="blog-content"><?php the_content(); ?></div>
                     </div><!--single-post-left-->
                     <div class="single-post-right col-md-3">

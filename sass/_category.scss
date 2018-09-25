@@ -1,4 +1,4 @@
-.category{
+.category, .search{
 
     .site-header button, .site-header a{
         color:#000;
@@ -27,7 +27,7 @@
             object-fit:cover;
         }
         .read-more-btn{
-            color: #41ad49;
+            color: $mainColor;
             display: block;
             text-align: center;
             margin: 20px 0;
@@ -53,4 +53,6 @@
     .date{
         font-family:$subFont;
     }
+
+    
 }

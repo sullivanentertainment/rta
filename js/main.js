@@ -58,7 +58,7 @@ $(document).ready(function () {
             "pointer-events": "none",
             "cursor": "default",
             "background": "#fff",
-            "color": "#41ad49"
+            "color": "$mainColor"
         })
         $(this).html('enjoy')
     });
@@ -70,7 +70,7 @@ $(document).ready(function () {
             "pointer-events": "none",
             "cursor": "default",
             "background": "#fff",
-            "color": "#41ad49"
+            "color": "$mainColor"
         })
         $(this).html('enjoy')
     });
@@ -82,7 +82,7 @@ $(document).ready(function () {
             "pointer-events": "none",
             "cursor": "default",
             "background": "#fff",
-            "color": "#41ad49"
+            "color": "$mainColor"
         })
         $(this).html('enjoy')
     });
@@ -96,7 +96,7 @@ $(document).ready(function () {
             "pointer-events": "none",
             "cursor": "default",
             "background": "#fff",
-            "color": "#41ad49"
+            "color": "$mainColor"
         })
         $(this).html('enjoy')
     });
@@ -202,7 +202,6 @@ $(document).ready(function () {
 
     $('.category-wrapper article').addClass('col-sm-6')
 
-    console.log('cat')
 
 
 
@@ -215,29 +214,46 @@ $(document).ready(function () {
         opacity: 1
     })
 
-    const controller = new ScrollMagic.Controller();
+    TweenMax.to('.blog-bg h2', 1.8, {
+        top:0,
+        ease: Back.easeOut,
+    })
 
-    const filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
-        opacity: 1, delay: 2
-    }, 0.2)
+    // const controller = new ScrollMagic.Controller();
+       
+    //     var filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
+    //         opacity: 1, delay: 2
+    //     }, 0.2)
 
-    const collectiblesTween = TweenMax.staggerTo('.collectible-cell', 0.7, {
-        transform: 'translate(0)',
-        opacity: 1,
-        delay:2
-    }, 0.4)
+    //     var scene =  new ScrollMagic.Scene({
+    //         triggerElement: '.anne-container'
+    //     }).setTween(filmTween)
+    //     .setPin(".anne-container", {pushFollowers: true})
+    //     .addIndicators(true)
+    // .addTo(controller);
+
+
+  
+
+    // const collectiblesTween = TweenMax.staggerTo('.collectible-cell', 0.7, {
+    //     transform: 'translate(0)',
+    //     opacity: 1,
+    //     delay:2
+    // }, 0.4)
+
+    // const scene1 =  new ScrollMagic.Scene({
+    //     triggerElement: '.anne-container'
+    // }).setTween(collectiblesTween)
+    //     .addTo(controller)
 
 
 
-    new ScrollMagic.Scene({
-        triggerElement: '.anne-container'
-    }).setTween(filmTween)
-        .addTo(controller)
+   
 
-    new ScrollMagic.Scene({
-        triggerElement: '.collectible-slider'
-    }).setTween(collectiblesTween)
-        .addTo(controller)
+    // new ScrollMagic.Scene({
+    //     triggerElement: '.collectible-slider'
+    // }).setTween(collectiblesTween)
+    //     .addTo(controller)
 
     
 

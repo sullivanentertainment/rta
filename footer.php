@@ -40,7 +40,7 @@
     /*set the width of the img element to 50%:*/
     img.style.width = (w / 2) + "px";
     /*create slider:*/
-    slider = document.createElement("DIV");s
+    slider = document.createElement("DIV");
     slider.setAttribute("class", "img-comp-slider");
     /*insert slider*/
     img.parentElement.insertBefore(slider, img);
