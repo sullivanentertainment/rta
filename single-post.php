@@ -50,13 +50,13 @@ get_header();
                         <h3>Connect With Us</h3>
                         <div class="social">
                             <div class="row inner-social">
-                                <a href="#">
+                                <a href="https://www.facebook.com/AnneofGG/?ref=br_rs">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#">
+                                <a href="https://www.instagram.com/shopatsullivan/">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="#">
+                                <a href="https://twitter.com/anneofgreengabl">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                             </div>
@@ -69,7 +69,7 @@ get_header();
                             ?>
                             </div>
                         </div>
-                        <a href="#" class="shop-anne-btn">Shop All Anne</a>
+                        <a href="https://shopatsullivan.com/index.php/" class="shop-anne-btn">Shop All Anne</a>
                         <div class="categories">
                             <h3>Categories</h3>
                             <?php
