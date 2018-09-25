@@ -221,7 +221,7 @@ $(document).ready(function () {
     const controller = new ScrollMagic.Controller();
        
         var filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
-            opacity: 1, delay: 2
+            opacity: 1, delay: 1
         }, 0.2)
 
         var scene =  new ScrollMagic.Scene({
