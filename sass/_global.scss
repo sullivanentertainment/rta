@@ -1,5 +1,17 @@
 .site-header{
     height:72px;
+    margin:0;
+    .dropdown-menu{
+        left:25%;
+    }
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+em{
+    font-style:italic;
 }
 
 nav{
@@ -60,6 +72,7 @@ body .site-header a, .site-header button{
 .scrolled .site-header{
     background:#fff;
     position:fixed;
+    top:0;
 }
 
 .scrolled.home .navigation #menu-main-menu a, .scrolled.home .navigation #menu-main-menu .sub-menu a, .scrolled .site-header button, .scrolled .site-header a{
@@ -95,6 +108,10 @@ p{
     padding:20px;
 }
 
+.page-template-behind-scenes-page h3{
+    padding-left:19px;
+}
+
 strong{
     font-weight:bold;
 }
@@ -125,6 +142,7 @@ strong{
 
 .dropdown-menu{
     transform: translate3d(-20%, 19px, 0px) !important;
+    min-width:225px;
 }
 
 //====Comparison Slider=====//
@@ -268,7 +286,6 @@ strong{
 
 .splash-btn-wrap a{
     border-color: $mainColor;
-    // border: 0;
     border-radius: 0;
     color: $mainColor;
     position: relative;
@@ -309,3 +326,33 @@ strong{
       opacity:0;
   }
   
+  .navbar-collapse{
+      height:100%;
+  }
+
+  .nav-item{
+      display:flex;
+  }
+
+  .navbar-nav, .nav-item{
+    align-items: center;
+  }
+
+  .navbar-nav{
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .navbar{
+      display:flex;
+  }
+
+  @media (max-width:990px){
+      .navbar-nav{
+          width:100%;
+      }
+
+      .navbar-collapse{
+          margin-left:0 !important;
+      }
+  }

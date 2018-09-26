@@ -23,29 +23,32 @@ get_header();
 					?>
 				</h1>
 			</header><!-- .page-header -->
+			<div class="category-wrapper container">
 
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
-
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'search' );
+				?>
+				<div class="single-cat-wrap row">
+					<div class="col-md-6"><a href="<?php echo the_permalink(); ?>"><?php echo get_the_post_thumbnail(); ?></a></div>
+					<div class="col-md-6">
+						<p class="date"><?php echo get_the_date(); ?></p>
+						<br/>
+						<h2><?php echo the_title(); ?></h2>
+						<?php the_excerpt(); ?>
+						<a href="<?php echo the_permalink()?>" class="read-more-btn">READ MORE</a>
+					</div>
+				</div>
+	
+				<?php
 
 			endwhile;
 
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
 
 		endif;
 		?>
+		</div>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->

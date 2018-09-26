@@ -60,7 +60,7 @@ Anne Shirley with her <a href="https://shopatsullivan.com/index.php/catalog/prod
         
 <h3 style="text-align: center;"><span>megan follows</span></h3>
 <p>
-Megan Follows, was 16 years old when she was chosen to play Anne, a role that earned her a 1986 and a 1988 Gemini Award for Best Performance by a Lead Actress. She went on to star in Sullivan Entertainment’s <em><a href="https://gazebotv.com/product-detail/23553">Under the Piano</a></em>, in which she played an autistic woman who is musically talented but relies heavily upon the protection of her sister, played by Amanda Plummer. Megan has had a prolific career, appearing in 94 films and shows including the hit series Reign. Some of her credits include: <em>ER, Heartland, Murdoch Mysteries, The miniseries World Without End,</em> and the films <em>Breakfast with Scot and The Nutcracker Prince.</em>
+Megan Follows, was 16 years old when she was chosen to play Anne, a role that earned her a 1986 and a 1988 Gemini Award for Best Performance by a Lead Actress. She went on to star in Sullivan Entertainment’s <em><a href="https://gazebotv.com/product-detail/23553">Under the Piano</a></em>, in which she played an autistic woman who is musically talented but relies heavily upon the protection of her sister, played by Amanda Plummer. Megan has had a prolific career, appearing in 94 films and shows including the hit series <em>Reign</em>. Some of her credits include: <em>ER, Heartland, Murdoch Mysteries, The miniseries World Without End,</em> and the films <em>Breakfast with Scot and The Nutcracker Prince.</em>
 </p>
     </div>
     </div>
@@ -95,7 +95,7 @@ Megan Follows, was 16 years old when she was chosen to play Anne, a role that ea
         
 <h3 style="text-align: center;"><span>Jonathan Crombie</span></h3>
 <p>
-Jonathan Crombie was offered the role of Gilbert Blythe after a casting agent saw him in a high-school play. He reprised the role of Gilbert in two other Anne of Green Gables films, and in an episode of the spin-off series <a href="https://gazebotv.com/product-detail/23439"><em>Road to Avonlea</em></a>. His additional television credits include the television movies<em> The Waiting Game, The Killing Fields</em>, and the series <em>Slings and Arrows.</em> He also voiced the beloved Benjamin Bear in the children’s show <em>The Secret World of Benjamin Bear</em> and its subsequent films. Crombie passed away from an aneurysm at age 48 on April 15, 2015.
+Jonathan Crombie was offered the role of Gilbert Blythe after a casting agent saw him in a high-school play. He reprised the role of Gilbert in two other <em>Anne of Green Gables</em> films, and in an episode of the spin-off series <a href="https://gazebotv.com/product-detail/23439"><em>Road to Avonlea</em></a>. His additional television credits include the television movies<em> The Waiting Game, The Killing Fields</em>, and the series <em>Slings and Arrows.</em> He also voiced the beloved Benjamin Bear in the children’s show <em>The Secret World of Benjamin Bear</em> and its subsequent films. Crombie passed away from an aneurysm at age 48 on April 15, 2015.
 </p>
     </div>
     </div>
@@ -199,7 +199,7 @@ Diana is Anne’s bosom friend and true <a href="https://shopatsullivan.com/inde
         
 <h3 style="text-align: center;"><span>Schuyler Grant</span></h3>
 <p>
-Schuyler Grant is the great-niece of legendary actress Katharine Hepburn. Grant appeared in the television movie <em>Laura Lansing Slept Here</em> with her famous great-aunt. After <a href="https://gazebotv.com/product-detail/17374">Anne of Green Gables</a>, Grant made a guest appearance on <em>Law &amp; Order</em> and was a regular on<em> All My Children</em>. She splits her time between New York and Los Angeles and is the director of the <em>Kula Yoga Project in Brooklyn.</em>
+Schuyler Grant is the great-niece of legendary actress Katharine Hepburn. Grant appeared in the television movie <em>Laura Lansing Slept Here</em> with her famous great-aunt. After <a href="https://gazebotv.com/product-detail/17374"><em>Anne of Green Gables</em></a>, Grant made a guest appearance on <em>Law &amp; Order</em> and was a regular on<em> All My Children</em>. She splits her time between New York and Los Angeles and is the director of the <em>Kula Yoga Project in Brooklyn.</em>
 </p>
     </div>
     </div>
@@ -231,7 +231,7 @@ Rachel Lynde is the Avonlea town gossip and best friend of Marilla Cuthbert. She
         
 <h3 style="text-align: center;"><span>Patricia Hamilton</span></h3>
 <p>
-Patricia Hamilton has played Rachel Lynde in all of all four Anne films and its long-running spin off series<a href="https://gazebotv.com/product-detail/23439"> Road to Avonlea</a>. She also provided the voice of the character for PBS <a href="https://gazebotv.com/product-detail/23431">animated series Anne of Green Gables</a>. She was nominated for a Gemini Award for Best Performance by an Actress in a Supporting Role in a Dramatic Series three times, winning in 1996.
+Patricia Hamilton has played Rachel Lynde in all of all four Anne films and its long-running spin off series<a href="https://gazebotv.com/product-detail/23439"><em>Road to Avonle</em></a>. She also provided the voice of the character for PBS <a href="https://gazebotv.com/product-detail/23431">animated series <em>Anne of Green Gables</em></a>. She was nominated for a Gemini Award for Best Performance by an Actress in a Supporting Role in a Dramatic Series three times, winning in 1996.
 </p>
     </div>
     </div>
@@ -331,7 +331,7 @@ After the death of her mother Bertha and abandonment by her father Walter Anne l
         
 <h3 style="text-align: center;"><span>hannah endicott- douglas</span></h3>
 <p>
-After an exhaustive cross Canada talent search, the hunt for a new Anne Shirley in <a href="https://shopatsullivan.com/index.php/catalog/product/view/id/221/s/anne-of-green-gables-a-new-beginning-novel-paperback/" target="_blank" rel="noopener">Anne of Green Gables &#8211; A New Beginning</a> finally came to an end when 13 year-old Hannah was selected to reprise the role made famous by Megan Follows. Hannah landed her first role at the age of nine in a film for Warner Brothers called Samantha — <em>An American Girl Holiday</em> (2004).
+After an exhaustive cross Canada talent search, the hunt for a new Anne Shirley in <em><a href="https://shopatsullivan.com/index.php/catalog/product/view/id/221/s/anne-of-green-gables-a-new-beginning-novel-paperback/" target="_blank" rel="noopener">Anne of Green Gables &#8211; A New Beginning</a></em> finally came to an end when 13 year-old Hannah was selected to reprise the role made famous by Megan Follows. Hannah landed her first role at the age of nine in a film for Warner Brothers called Samantha — <em>An American Girl Holiday</em> (2004).
 </p>
     </div>
     </div>

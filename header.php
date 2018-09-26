@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<?php wp_head(); ?>
 	<script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -31,20 +31,20 @@
 <div id="page" class="site">
 	<header id="masthead" class="site-header row">
 
-<nav class="navbar navbar-expand-lg navbar-light col-sm-12">
-<div class="fade-logos-wrap col-sm-1">
+<nav class="navbar navbar-expand-lg navbar-light container">
+<div class="fade-logos-wrap">
 				<a href="/">
 					<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-white.png" id="logo-light"/>
 					<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-dark.png" id="logo-dark"/>
 				</a>
-			</div>
+	</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav container-fluid">
-      <li class="nav-item col-lg-2 col-md-12">
+  <div class="collapse navbar-collapse offset-md-2" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
         <div class="dropdown ">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             FILMS
@@ -57,7 +57,7 @@
           </div>
         </div>
       </li>
-      <li class="nav-item col-lg-2 col-md-12">
+      <li class="nav-item">
       <div class="dropdown ">
 			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				CHARACTERS
@@ -77,16 +77,19 @@
 			</div>
 		</div>
       </li>
-      <li class="nav-item col-lg-2 col-md-12">
+      <li class="nav-item">
         <a href="<?php echo get_template_directory_uri(); ?>/behind-the-scenes" class="">BEHIND THE SCENES</a>
       </li>
-      <li class="nav-item col-lg-2 col-md-12">
+      <li class="nav-item">
         <a href="https://gazebotv.com/" class="">WATCH NOW</a>
       </li>
-      <li class="nav-item col-lg-2 col-md-12">
+      <li class="nav-item">
         <a href="<?php echo get_template_directory_uri(); ?>/blog" class="">BLOG</a>
       </li>
-      <li class="nav-item col-lg-2 col-md-12">
+      <li class="nav-item">
+        <a href="<?php echo get_template_directory_uri(); ?>/anne/?s=recipes" class="">RECIPES</a>
+      </li>
+      <li class="nav-item">
         <a href="#" class="">SHOP</a>
       </li>
     </ul>
