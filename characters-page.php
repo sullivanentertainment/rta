@@ -231,7 +231,11 @@ Rachel Lynde is the Avonlea town gossip and best friend of Marilla Cuthbert. She
         
 <h3 style="text-align: center;"><span>Patricia Hamilton</span></h3>
 <p>
+<<<<<<< HEAD
 Patricia Hamilton has played Rachel Lynde in all of all four Anne films and its long-running spin off series<a href="https://gazebotv.com/product-detail/23439"><em>Road to Avonle</em></a>. She also provided the voice of the character for PBS <a href="https://gazebotv.com/product-detail/23431">animated series <em>Anne of Green Gables</em></a>. She was nominated for a Gemini Award for Best Performance by an Actress in a Supporting Role in a Dramatic Series three times, winning in 1996.
+=======
+Patricia Hamilton has played Rachel Lynde in all of all four Anne films and its long-running spin off series <a href="https://gazebotv.com/product-detail/23439"><em>Road to Avonlea</em></a>. She also provided the voice of the character for PBS <a href="https://gazebotv.com/product-detail/23431">animated series <em>Anne of Green Gables</em></a>. She was nominated for a Gemini Award for Best Performance by an Actress in a Supporting Role in a Dramatic Series three times, winning in 1996.
+>>>>>>> e220145e2256cfb194034b2d28c8a61d261c1d0d
 </p>
     </div>
     </div>

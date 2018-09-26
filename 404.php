@@ -15,7 +15,7 @@ get_header();
 
 			<section class="error-404 not-found">
 			<h1 class="hN"> 404 error<br/>LOOKS LIKE YOU'VE GOTTEN STUCK IN THE MUD!</h1>
-
+<br/>
 <p class="description">The page you requested was not found! Follow these links to get you back on track!</p>
 <a class="btn btn--primary btn--beta btn--large" href="<?php echo home_url(); ?>" title="<?php bloginfo( 'name' ) ?>" rel="home">
 	<?php printf( __( '&#8592; Return to the Home Page', 'rosa' ), home_url() ); ?>

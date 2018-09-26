@@ -214,8 +214,28 @@ $(document).ready(function () {
         opacity: 1
     })
 
+    TweenMax.to('.blog-bg h2', 1.8, {
+        top:0,
+        ease: Back.easeOut,
+    })
     const controller = new ScrollMagic.Controller();
+       
+        var filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
+            opacity: 1, delay: 1
+        }, 0.2)
 
+        var scene =  new ScrollMagic.Scene({
+            triggerElement: '.anne-container'
+        }).setTween(filmTween)
+        .setPin(".anne-container", {pushFollowers: true})
+        .addIndicators(true)
+    .addTo(controller);
+
+
+  
+
+
+<<<<<<< HEAD
     $('.anne-info-wrapper').each(function(){
        
         var filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
@@ -229,17 +249,34 @@ $(document).ready(function () {
     })
 
   
+=======
+    // const collectiblesTween = TweenMax.staggerTo('.collectible-cell', 0.7, {
+    //     transform: 'translate(0)',
+    //     opacity: 1,
+    //     delay:2
+    // }, 0.4)
+>>>>>>> e220145e2256cfb194034b2d28c8a61d261c1d0d
 
-    const collectiblesTween = TweenMax.staggerTo('.collectible-cell', 0.7, {
-        transform: 'translate(0)',
-        opacity: 1,
-        delay:2
-    }, 0.4)
+    // const scene1 =  new ScrollMagic.Scene({
+    //     triggerElement: '.anne-container'
+    // }).setTween(collectiblesTween)
+    //     .addTo(controller)
 
+<<<<<<< HEAD
     const scene =  new ScrollMagic.Scene({
         triggerElement: '.anne-container'
     }).setTween(collectiblesTween)
         .addTo(controller)
+=======
+
+
+   
+
+    // new ScrollMagic.Scene({
+    //     triggerElement: '.collectible-slider'
+    // }).setTween(collectiblesTween)
+    //     .addTo(controller)
+>>>>>>> e220145e2256cfb194034b2d28c8a61d261c1d0d
 
 
 
