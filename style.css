@@ -166,7 +166,8 @@ table {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    height: 100vw; }
     .home .splash-btn-wrap a {
       width: 65vw; } }
 
@@ -2035,6 +2036,10 @@ header {
 
 .costume-text-1 .before-after-wrapper img, .costume-text-2 .before-after-wrapper img {
   width: 100%; }
+
+@media (max-width: 990px) {
+  .img-comp-container {
+    display: none; } }
 
 @media (max-width: 990px) {
   .page-template-characters-page .col-md-4 {
