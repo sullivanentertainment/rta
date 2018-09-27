@@ -235,39 +235,17 @@ $(document).ready(function () {
   
 
 
-<<<<<<< HEAD
-    $('.anne-info-wrapper').each(function(){
-       
-        var filmTween = TweenMax.staggerTo('.anne-info-wrapper', 0.7, {
-            opacity: 1, delay: 2
-        }, 0.2)
-
-        var scene =  new ScrollMagic.Scene({
-            triggerElement: '.anne-container'
-        }).setTween(filmTween)
-            .addTo(controller)
-    })
-
-  
-=======
     // const collectiblesTween = TweenMax.staggerTo('.collectible-cell', 0.7, {
     //     transform: 'translate(0)',
     //     opacity: 1,
     //     delay:2
     // }, 0.4)
->>>>>>> e220145e2256cfb194034b2d28c8a61d261c1d0d
 
     // const scene1 =  new ScrollMagic.Scene({
     //     triggerElement: '.anne-container'
     // }).setTween(collectiblesTween)
     //     .addTo(controller)
 
-<<<<<<< HEAD
-    const scene =  new ScrollMagic.Scene({
-        triggerElement: '.anne-container'
-    }).setTween(collectiblesTween)
-        .addTo(controller)
-=======
 
 
    
@@ -276,7 +254,6 @@ $(document).ready(function () {
     //     triggerElement: '.collectible-slider'
     // }).setTween(collectiblesTween)
     //     .addTo(controller)
->>>>>>> e220145e2256cfb194034b2d28c8a61d261c1d0d
 
 
 

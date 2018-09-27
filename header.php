@@ -34,8 +34,8 @@
 <nav class="navbar navbar-expand-lg navbar-light container">
 <div class="fade-logos-wrap">
 				<a href="/">
-					<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-white.png" id="logo-light"/>
-					<img src="<?php echo get_template_directory_uri(); ?>/static-images/anne-logo-dark.png" id="logo-dark"/>
+					<img src="<?php echo get_template_directory_uri(); ?>/static-images/rta-logo.png" id="logo-light"/>
+					<img src="<?php echo get_template_directory_uri(); ?>/static-images/rta-logo-dark.png" id="logo-dark"/>
 				</a>
 	</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,10 +50,14 @@
             FILMS
           </button>
           <div class="dropdown-menu col-md-12" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneofgreengables">Anne of Green Gables</a>
-            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneofavonlea">Anne of Avonlea</a>
-            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#annethecontinuingstory">The Continuing Story</a>
-            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/films/#anneanewbeginnging">A New Beginning</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/season-1">Season 1</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/season-2">Season 2</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/season-3">Season 3</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/season-4">Season 4</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/season-5">Season 5</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/season-6">Season 6</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/season-7">Season 7</a>
+            <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/christmas">Christmas</a>
           </div>
         </div>
       </li>
@@ -87,11 +91,7 @@
         <a href="<?php echo get_template_directory_uri(); ?>/blog" class="">BLOG</a>
       </li>
       <li class="nav-item">
-<<<<<<< HEAD
         <a href="<?php echo get_template_directory_uri(); ?>/anne/?s=recipes" class="">RECIPES</a>
-=======
-        <a href="https://anneofgreengables.com/?s=recipes" class="">RECIPES</a>
->>>>>>> e220145e2256cfb194034b2d28c8a61d261c1d0d
       </li>
       <li class="nav-item">
         <a href="#" class="">SHOP</a>
