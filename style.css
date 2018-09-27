@@ -701,8 +701,7 @@ html {
 
 .anne-info-wrapper img {
   -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  max-height: 200px; }
+  transition: all 0.4s ease-in-out; }
 
 .anne-info-wrapper:hover img {
   -webkit-transform: scale(1.2);

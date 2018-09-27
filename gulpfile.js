@@ -50,7 +50,7 @@ gulp.task('browser-sync', function () {
     ];
 
     browserSync.init(files, {
-        proxy: 'localhost/anne',
+        proxy: 'localhost/rta',
     });
 
     gulp.watch(files).on('change', browserSync.reload);
