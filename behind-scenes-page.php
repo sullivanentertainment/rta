@@ -1,51 +1,47 @@
 <?php
-/*
-Template Name: Behind The Scenes
-*
-* @link https://developer.wordpress.org/themes/basics/template-hierarchy/
-*
-* @package Edward_Lanto\'s_underscore_theme
-*/
-get_header();
-?>
+/**
+ * Template Name: Behind The Scenes
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package Edward_Lanto\'s_underscore_theme
+ */
+get_header(); ?>
 
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main">
-            <img style="width:100vw" src="<?php
-echo get_template_directory_uri();
-?>/static-images/behind-banner.jpg"/>
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+		    <img style="width:100vw" src="https://anneofgreengables.com/wp-content/uploads/2018/05/behind-the-scenes.png"/>
                 <ul id="main-list" class="filtr-container container portfolio-wrapper">
-       <h4 class="section-header" style="margin-bottom: 0;
-    margin-top: 4%;">Behind The Scenes</h4>
+       <h1 class="section-header" style="margin-bottom: 0;
+    margin-top: 20px;">Behind The Scenes</h1>
+       
                         <?php
 $loop = new WP_Query(array(
-    'post_type' => 'videos',
-    'posts_per_page' => -1,
-    'orderby' => 'date',
-    'order' => 'ASC'
+	'post_type' => 'videos',
+	'posts_per_page' => - 1,
+	'orderby' => 'date',
+	'order' => 'ASC',
 ));
+
 if ($loop->have_posts()):
-    while ($loop->have_posts()):
-        $loop->the_post();
+	while ($loop->have_posts()):
+		$loop->the_post();
 ?>
 <li class="video-wrapper">
     <div class="content-wrapper">
         <h3 class="youtube-title"><?php
-        echo the_title();
-?></h3>
+		echo the_title(); ?></h3>
         <p><?php
-        echo the_content();
-?></p>
+		echo the_content(); ?></p>
     </div>
     <div class="youtube-player" data-id="<?php
-        echo CFS()->get('url');
-?>"></div>
+		echo CFS()->get('url'); ?>"></div>
 
 </li>
 
                                 
                             <?php
-    endwhile;
+	endwhile;
 endif;
 wp_reset_postdata();
 ?>
@@ -53,154 +49,65 @@ wp_reset_postdata();
 <p style="
     text-align: center;
     font-weight:bold;
-">For an in depth journey through the making of the Anne films look inside the <a href="https://shopatsullivan.com/catalog/product/view/id/2683/s/anne-of-green-gables-limited-edition-blu-ray-collectors-set/category/4/" style="text-decoration:underline;">Blu-ray Collectors Edition</a></p>
+"> For a journey through the making of Road to Avonlea look at the <a href="https://shopatsullivan.com/index.php/catalog/product/view/id/1282/s/an-avonlea-album/category/30/">Avonlea Album</a></p>
                        </ul>
-                       <div class="costumes">
-                           <h4 class="section-header container costume-head">The Costumes</h4>
-                           <ul class="container costume-list">
-                               <li>
-                                   <img class="costume-img" src="<?php
-echo get_template_directory_uri();
-?>/static-images/Costume06.jpg"/>
-                                   <div class="info">
-                                       <p class="info-header">Anne of Green Gables (1985)</p><p style="text-align:center;font-style:italic">Colleen Dewhurst Plays Marilla Cuthbert</p>
-                    
-                                       <p>★ Costume Designer Martha Mann constructed clothes with fabric placed inside out to help achieve a worn faded look as in this blouse worn by Dewhurst</p>
-                                        <p>★ Mann had this sweater handknit for Colleen Dewhurst</p>
-                                   </div>
-                               </li>
-                               <li>
-                                   <img class="costume-img" src="<?php
-echo get_template_directory_uri();
-?>/static-images/Costume01.jpg"/>
-                                   <div class="info">
-                                       <p class="info-header">Anne of Green Gables: <br/>The Sequel (1987) </p><p style="text-align:center;font-style:italic">Megan Follow Plays Anne Shirley</p>
-                    
-                                       <p>★ Toronto stage and wardrobe designer Martha Mann created the costumers for the first two films and the fourth film.</p>
-                                       <p>★ Mann's design for Anne the Sequel took Megan Follows from being a child to a young ingenue.</p>
-                                   </div>
-                               </li>
-                                <li>
-                                   <img class="costume-img" src="<?php
-echo get_template_directory_uri();
-?>/static-images/Costume02.jpg"/>
-                                   <div class="info">
-                                       <p class="info-header">Anne of Green Gables: <br/>A New Beginning (2009) </p style="text-align:center"><p style="text-align:center;font-style:italic">Joan Gregson Plays Hepzibah Leach</p>
-                    
-                                       <p>★ Mann's genius was the amount of research she did to perfect every character's lineup of clothes.</p>
-                                   </div>
-                               </li>
-                                <li>
-                                   <img class="costume-img" src="<?php
-echo get_template_directory_uri();
-?>/static-images/Costume03.jpg"/>
-                                   <div class="info">
-                                       <p class="info-header">Anne of Green Gables: <br/>The Sequel (1987) </p><p style="text-align:center;font-style:italic">Schuyler Grant Plays Diana Barry</p>
-                    
-                                       <p>★ Diana's light pink gown with white lace famously known as her “Honeymoon dress" has Gigot sleeves. The bodice and neckline are lined with a long string of white pearls.</p>
-                                   </div>
-                               </li>
-                                <li>
-                                   <img class="costume-img" src="<?php
-echo get_template_directory_uri();
-?>/static-images/Costume04.jpg"/>
-                                   <div class="info">
-                                       <p class="info-header">Anne of Green Gables: <br/>The Sequel (1987) </p>
-                    
-                                       <p>★ Martha Mann worked with Cosprop's London design firm to round out many of her wardrobe.</p>
-                                       <p>★ Cosprop is famous for supplying period costumes to many of the Merchant Ivory films such as Howard's End and Room with A View.</p>
-                                   </div>
-                               </li>
-                                <li>
-                                   <img class="costume-img" src="<?php
-echo get_template_directory_uri();
-?>/static-images/Costume05.jpg"/>
-                                   <div class="info">
-                                       <p class="info-header">Anne of Green Gables (1985)</p><p style="text-align:center;font-style:italic;">Charmion King plays Aunt Josephine </p>
-                    
-                                       <p>★ Mann's clothing designs were based on each character's breakdown. </p>
-                                       <p>★ She also influenced hair design and came up with a wig for Actress Charmion King that matched her ferocity as a character.</p>
-                                   </div>
-                               </li>
-                           </ul>
-                                                               <p class="quote container">"The period costumes of the Anne films are recognized for their authenticity and intricacy. Martha Mann, the costume designer for the first two films, set an ambitious precedent for the series." </p>
-                       </div>
+                       
+                       <!-- IF ADD COSTUMES BACK ADD HERE -->
                        <div class="container">
                        <div class="costume-text-1">
                           
                            <div class="before-after-wrapper">
-                            <div style="" class="costume-wrap">
-                                 <h3 class="section-header" style="margin-top:0">Why These Costumes Matter?</h3>
-                           <p>
-                            All of Anne Shirley and Marilla Cuthbert‘s costumes were original pieces, constructed specifically for the first film. Mann was faithful to Edwardian styles, right down to the petticoats, furbelows, corsets and more. Ruth Secord took the reigns as costume designer for <a href="https://gazebotv.com/product-detail/23428" target="_blank"><em>Anne: The Continuing Story</em></a>, but stayed true to Mann’s initial vision. Secord used both items that were made specifically for the film, and authentic vintage pieces. Gilbert Blythe‘s costume, for instance, was a genuine medical uniform from the First World War.</p></div>
+                            <div style="flex-basis:47%" class="costume-wrap">
+                                 <h3 class="section-header" style="margin-top:0">Imagine</h3>
+                          <p class="p-heading">7,000 pairs of shoes</p>
+<p>including period skates, slippers, high-button boots and dance wear</p>
 
-                                <img src="<?php
-echo get_template_directory_uri();
-?>/static-images/Why-These-Costumes-Matter.jpg">
+<p class="p-heading">10,000 costumes</p>
+<p>half of which were original designs for all of the lead performers and guest stars</p>
+<p class="p-heading">2,000 hats</p>
+<p>with enough feathers, frills and furbelows to exhaust a full-time millinery department.</p>
+                          
+                          
+                          </div>
+
+                                <img src="https://roadtoavonlea.com/wp-content/uploads/2018/06/road-to-avonlea-costume-10-1-1.jpg" alt="Road to Avonlea period drama costume">
                        </div>
                        </div>
                        <div class="costume-text-2">
                           
                            <div class="before-after-wrapper before2">
-                              <img src="<?php
-echo get_template_directory_uri();
-?>/static-images/Martha-Mann.jpg">
-                             <div style="">
-                             <h3 class="section-header"  style="margin-top:0;">Who is Martha Mann?</h3>
+                              <img style="width:49%;" src="https://roadtoavonlea.com/wp-content/uploads/2018/06/road-to-avonlea-costume-19-3.jpg" alt="Road to Avonlea period drama costumes">
+                             <div style="flex-basis:47%">
                            <p>
-                            Martha Mann returned as costume designer for <a href="https://gazebotv.com/product-detail/23429" targe="_blank"><em>Anne: A New Beginning</em></a>, in order to recreate the tonality of the wardrobe established in the initial trilogy. Mann’s wonderful sense of style and creativity allowed her to craft not only many original designs, but to locate genuine period clothes, and pull many items from stock to create an accurate and rich palette which would accentuate the story.
-Thanks to the efforts of Mann and Secord, the lush, visually stimulating costuming of these films will continue to impress for generations to come.</p></div>
+                            Avonlea scripts presented enormous challenges; and so did the actors who often had much to say about their character development and how it would best be reflected in what they wore.<br/><br/>Most female performers who had been subjected to seven years of authentic corsets and heavy undergarments had no desire to keep them. Souvenirs were the rare costume jewelry, eye wear, head dresses, wigs and fans that had been procured at great expense and sold at the production’s close to enthusiastic memorabilia hunters.</p></div>
 
                        </div>
+                       <h3 style="text-align:center">Costume Design Stills</h3>
+                       <?php echo do_shortcode('[rl_gallery id="31531"]'); ?>
                        </div>
                        <div class="set-design container" style="padding:0;">
                            <h4 class="section-header set-header">Set Design</h4>
                            </div>
-                            </div>
 
-                          <img class="set-design-bg" style="width:100vw" src="<?php
-echo get_template_directory_uri();
-?>/static-images/set-design-bg.jpg"/>
+                          <img class="set-design-bg" style="width:100vw" src="https://roadtoavonlea.com/wp-content/uploads/2018/08/set-design.png"/>
                            <div class="container">
                                
                             <div class="before-after-wrapper wrap1">
-                            <div class="img-comp-container">
-                                <div class="img-comp-img">
-                                    <img src="<?php
-echo get_template_directory_uri();
-?>/static-images/before1.jpg" width="300" height="200">
-                                </div>
-                                <div class="img-comp-img img-comp-overlay">
-                                    <img src="<?php
-echo get_template_directory_uri();
-?>/static-images/after1.jpg" width="300" height="200">
-                                </div>
-                            </div>
+                                <img src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/wp-content/uploads/2018/05/road-to-avonlea-set-design-16.jpg" alt="Road to Avonlea set design"/>
                             <div class="set-1">
-                                <h3 style="margin-top:0;" class="trajan">How'd We Design Two Time Periods?</h3>
-                            <p>In order to authentically portray two very distinct periods in <a href="https://gazebotv.com/product-detail/23429" target="_blank"><em>Anne of Green Gables—A New Beginning</em></a>, every set was extensively researched and painstakingly recreated by the Production Designer, Ray Lorenz. Every subtle detail of color, texture and lighting needed to reproduce a visual sweep in time spanning the late 1890’s to the mid 1940’s, where both of Anne’s stories take place. The set design team examined and took into account the differences in trends, resources, technology and historical advancements that shaped each time period in order to assemble and create each required backdrop and setting. The team also had the challenge of recreating the original sets that were used and made iconic in the <a href="https://gazebotv.com/product-detail/34267" target="_blank"><em>Anne of Green Gables trilogy</em></a>; requiring extremely accurate attention to every pre-existing detail; such as the interiors of Green Gables.</p>
+                                <h3 style="margin-top:0;" class="trajan">THE CHALLENGES</h3>
+                            <p>The challenges were often enormous. From a traveling circus to Dickensian back alleys. From a completely snowbound schoolhouse that had to be shot both interior and exterior in winter blizzards, to cricket fields, castles, caves full of bats and ships at sea!</p>
                          </div>
                        </div>
                        <div class="before-after-wrapper">
                             <div class="set-bg-2">
-                           
-                           <h3 class="trajan" style="margin-top:0;">Where Did This All Happen?</h3>
-                            <p>Many of the film’s sets were staged and constructed at the Sullivan Studio and Backlot in Toronto, giving the Production Design team a blank canvas to create their vision of the engaging time period of Anne’s youth. Although the film employed a mixture of sets, actual location photography and “blue and green-screen” CGI technology, each visual backdrop had the task of bringing to life two unique eras in history as seamlessly as if the entire film had been shot on location in a real world that sadly no longer exists.</p>
+                            <p>Over the course of many, many episodes Sullivan and his team of writers opted to set scripts in other locations as well as Avonlea. The production team was challenged to create a permanent maritime seaport out of the cobblestone streets of a 19th century Toronto distillery.The fashionable private girls attended by Felicity was staged at Penryn Park, an estate in nearby Port Hope, Ontario, The locations grew more lavish, fanciful and complex as the series grew in size, character and scope. Meanwhile, the original interior sets for King Farm, Rose Cottage, the Dale House, the Pettibone House and the General Store were maintained across four sound stages in Sullivan Studios. Even these became crowded with the mammoth completion of two floors, offices, dining room and kitchen of the Edwardian seaside resort – The White Sands. Though Road to Avonlea grew in scale and imagination, it never lost its heart. Thanks to the talented team of designers and set decorators, as well as Sullivan’s production expertise, the show’s unique brand of humour and human drama was allowed to evolve as far as the writers’ imaginations could dream.</p>
                             </div>
-                            <div class="img-comp-container second-slider">
-                                <div class="img-comp-img">
-                                    <img src="<?php
-echo get_template_directory_uri();
-?>/static-images/before2.jpg" width="300" height="200">
-                                </div>
-                                <div class="img-comp-img img-comp-overlay">
-                                    <img src="<?php
-echo get_template_directory_uri();
-?>/static-images/after2.jpg" width="300" height="200">
-                                </div>
-                            </div>
+                            <img src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/wp-content/uploads/2018/05/road-to-avonlea-set-design-10.jpg" alt="Road to Avonlea set design"/>
+                            
                        </div>
-                        
+                       <h3>Set Design Stills</h3>
+                       <?php echo do_shortcode('[rl_gallery id="31540"]'); ?>
                        </div>
                        
 
@@ -209,9 +116,8 @@ echo get_template_directory_uri();
 
  
 
-        </main><!-- #main -->
-    </div><!-- #primary -->
+		</main><!-- #main -->
+	</div><!-- #primary -->
 
 <?php
 get_footer();
-

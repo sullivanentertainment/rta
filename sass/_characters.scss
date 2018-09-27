@@ -1,8 +1,16 @@
 .page-template-characters-page{
 
-    .col-md-4{
+    article{
+        height:410px;
+        margin: 85px 0;
+    }
+
+    .col-lg-4{
+        font-family:$subFont;
         @include mobile{
             margin-bottom:20px;
+            text-align:center;
+            margin: 25px 0;
         }
     }
 

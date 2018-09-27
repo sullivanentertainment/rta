@@ -25,7 +25,7 @@ get_header();
 							<h1 style="text-align: center;font-size:2em">
         <span style="font-family: trajan-regular-pro;font-weight: lighter;">Season 1</span>
     </h1>
-    	<div class="row " >
+    	<div class="row summary-wrap">
 			<div class="col-md-6">
 		
     <h3 class="heading" style="text-align: center;">Summary</h3>
@@ -52,8 +52,8 @@ get_header();
         <a href="https://gazebotv.com/product-detail/23573">Watch Now</a>
     </div>
     <div class="video-container">
-        <div class="video-text-2">
-            <ul class="video-episode-list episode-wrap">
+        <div class="video-text-2 row">
+            <ul class="video-episode-list episode-wrap col-md-6">
                 <h3 style="margin-top:0">Episodes</h3>
                 <li class="vid-thumbnail">
                     <div class="flex-wrap-season">
@@ -249,8 +249,8 @@ get_header();
                 <button class="read-more-seasons">View More</button>
             </ul>
     
-            <div class="video-text-wrap">
-                <h4 style="font-size: 36px;">Guest Stars</h4>
+            <div class="video-text-wrap col-md-6">
+                <h3>Guest Stars</h3>
     
         <div class="video-text-1">
             <ul class="guest-list-1">

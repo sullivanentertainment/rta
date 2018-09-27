@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:Season 4
+ * Template Name:Season 7
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
