@@ -218,8 +218,13 @@ $args = array(
         while($new_query->have_posts()){
             $new_query->the_post();
             echo '<li class="carousel-cell collectible-cell col-md-3 test">';
+            echo '<a href="CFS()->get("URL")"';
             echo the_post_thumbnail('thumbnail') . '<br/>';
             echo '<p class="collectible-title">' . the_title() . '</p>';
+            ?>
+            <p><?php CFS()->get('price'); ?>
+            <?php 
+            echo '</a>';
             echo '</li>';
         }
     }
